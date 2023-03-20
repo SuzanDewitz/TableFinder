@@ -1,1 +1,1 @@
-web: gunicorn codestar.wegi
+web: gunicorn tablefinder.wsgi
