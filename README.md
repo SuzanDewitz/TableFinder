@@ -1,3 +1,181 @@
+- [User Experience (UX)](UX_URL)
+   - [Project goals](Project_goals_URL)
+   - [User Stories](User_Stories_URL)
+   - [Agile Methodology](Agile_Methodology_URL)
+   - [Design](Design_URL)
+        - [Wireframes](Wireframes_URL)
+        - [Database Schema](Database_Schema_URL)
+
+
+[Features](https://www.productplan.com/glossary/product-features/)
+
+
+
+ - [Future Features](https://www.example.com/future-features)
+
++ [Responsive Design](https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/)
+
+[Technologies](https://en.wikipedia.org/wiki/List_of_programming_languages)
+
+  + [Languages](https://en.wikipedia.org/wiki/List_of_programming_languages)
+ 
+  + [Frameworks and Libraries](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries)
+
+  + [Tools](https://www.codecademy.com/resources/blog/the-best-ide-for-web-development-in-2021/)
+
+[Testing](https://www.guru99.com/software-testing.html)
+
+[Deployment](https://www.heroku.com/)
+
+[Credits](https://github.com/SuzanDewitz)
+
+  + [Code](https://github.com/SuzanDewitz/TableFinder)
+
+  + [Content](https://www.productplan.com/glossary/product-content/)
+
+  + [Media](https://www.canva.com/)
+
+  + [Inspiration](https://dribbble.com/)
+
+  + [Acknowledgments](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
+
+
+  <br>
+  <br>
+
+
+  # Portfolio Project 4 - TableFinder restaurant booking system
+ <br>
+  <br>
+
+  # User Experience (UX)
+   ## Project goals
+
+
+The overall goal of the website is to create a restaurant webpage that is enticing for the visitors that generates an interest and curiosity to visit the restaurant. Visitors should be able to find general information about the restaurant as well as finding the menu offerings. In addition, visitors should be able to make a reservation for a table directly on the webpage. It will also provide a booking management admin panel for the staff members.
+
++ User stories
+   + First Time Visitor Goals
+     + As a first time visitor I can read and learn about the location and history and get a feel for the restaurant.
+     + As a first time visitor I can find out what kind of food they serve from their menu.
+     + As a first time visitor I can find information about how to make a reservation at the restaurant.
+   + Returning Visitor Goals
+     + As a returning visitor I can create an account so I can make a reservation online.
+     + As a returning visitor I can view the menu to see if has changed.
+   + Frequent User Goals
+     + As a frequent visitor I can login and find my current bookings.
+     + As a frequent visitor I can change or cancel my booking in the login page.
+   + Agile methodology
+     + The principles of agile methodology were utilized during the project. By assigning user stories to issues and taking advantage of the GitHub Kanban board functionality, the necessary goals and priorities throughout the project could be well defined. In addition, labels were used to further define the priority of eacn user story in the Kanban board.
+   + Design
+     + The theme for the project were chosen in accordance with the intended target market in mind for the restaurant. With its fancy looks and feel, dark colors and luxurious details and effects, the theme fits perfect for the goal of giving the visitor the impression that this is a very high quality restaurant.
+
+     + Colors
+
+       + The main colors are overall black to provide an elegant look and feel. Furthermore, elements such as buttons, icons, symbols, links and headings are made in gold color that follows the pattern of elegance and adds to the premier look and feel of the webpage.
+    + Font
+
+       + The fonts in the theme are clear and modern and contribute perfectly to the overall elegant setting.
+   + Images
+
+       + The images in the theme provide great content and presentation of the restaurant and serves as an enticement for the visitors.
+   + Wireframes
+
+
+   <br>
+  <br>
+
+
+
+User Stories
+...
+
+Design and Site Structure
+...
+
+
+This is a Django project settings file. It includes various configurations that affect the behavior of the Django web framework when running the project.
+
+Some notable settings include:
+
++ SECRET_KEY: A secret string used for cryptographic signing. It is used for things like generating CSRF tokens and signing session cookies. It is important to keep this value secret.
+DEBUG: A boolean that determines whether or not debug mode is enabled. When debug mode is enabled, Django will display detailed error messages and debugging information in case of an error. This should be turned off in production.
++ ALLOWED_HOSTS: A list of strings representing the host/domain names that this Django site can serve.
++ INSTALLED_APPS: A list of strings representing the installed apps in this Django project. An app is a component of a Django project that provides a specific functionality, such as authentication or database management.
++ TEMPLATES: A list of template engines to use and their configurations. Templates are used for rendering HTML pages.
++ DATABASES: A dictionary containing the configuration settings for the project's database.
++ STATIC_URL: The base URL to use for serving static files (CSS, JavaScript, Images). This setting is used in combination with the STATICFILES_DIRS and STATIC_ROOT settings.
++ DEFAULT_AUTO_FIELD: The type of primary key to use for newly created database tables. This setting is introduced in Django 3.2 and helps to reduce migration issues that arise from changes to the primary key field type.
+ <br>
+
+
+ <br>
+  <br>
+   <br>
+    <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------codeinstitute----------------------------------------------------------------------------------------------
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome Suzan Dewitz,
