@@ -52,34 +52,90 @@
    ## Project goals
 
 
-The overall goal of the website is to create a restaurant webpage that is enticing for the visitors that generates an interest and curiosity to visit the restaurant. Visitors should be able to find general information about the restaurant as well as finding the menu offerings. In addition, visitors should be able to make a reservation for a table directly on the webpage. It will also provide a booking management admin panel for the staff members.
+The project goals are focused on creating an attractive and user-friendly restaurant webpage that aims to entice visitors and generate an interest in the restaurant. To achieve this goal, the website will be designed to provide visitors with general information about the restaurant, its menu offerings, and a seamless reservation system that allows them to book a table directly on the webpage.
+<br>
+<br>
+
+
+By providing a user-friendly and intuitive booking system, the website aims to provide an excellent user experience and encourage visitors to make reservations quickly and easily. Additionally, the website will also provide a booking management admin panel for the staff members to help them manage the reservations more efficiently.
+<br>
+<br>
+Overall, My project goals are aimed at providing an exceptional user experience to your visitors and making the booking process easy and convenient for them. By achieving these goals, you can enhance the reputation of the restaurant and attract more customers to the establishment..
 
 + User stories
    + First Time Visitor Goals
-     + As a first time visitor I can read and learn about the location and history and get a feel for the restaurant.
-     + As a first time visitor I can find out what kind of food they serve from their menu.
-     + As a first time visitor I can find information about how to make a reservation at the restaurant.
-   + Returning Visitor Goals
-     + As a returning visitor I can create an account so I can make a reservation online.
-     + As a returning visitor I can view the menu to see if has changed.
-   + Frequent User Goals
-     + As a frequent visitor I can login and find my current bookings.
-     + As a frequent visitor I can change or cancel my booking in the login page.
-   + Agile methodology
-     + The principles of agile methodology were utilized during the project. By assigning user stories to issues and taking advantage of the GitHub Kanban board functionality, the necessary goals and priorities throughout the project could be well defined. In addition, labels were used to further define the priority of eacn user story in the Kanban board.
-   + Design
-     + The theme for the project were chosen in accordance with the intended target market in mind for the restaurant. With its fancy looks and feel, dark colors and luxurious details and effects, the theme fits perfect for the goal of giving the visitor the impression that this is a very high quality restaurant.
 
-     + Colors
+  + As a first-time visitor to the restaurant website, my goal is to learn about the restaurant's menu offerings, location, hours of operation, and contact information. I want to be able to navigate the website easily and find the information I need quickly. I also want to be able to make a reservation for a table directly on the webpage and have the option to view the restaurant's reviews and ratings.
 
-       + The main colors are overall black to provide an elegant look and feel. Furthermore, elements such as buttons, icons, symbols, links and headings are made in gold color that follows the pattern of elegance and adds to the premier look and feel of the webpage.
-    + Font
+   + As a first-time visitor, I want to learn about the restaurant's history and get a feel for the atmosphere and ambiance.
+   + As a first-time visitor, I want to browse the menu and learn about the restaurant's food offerings.
+   + As a first-time visitor, I want to be able to make a reservation for a table directly on the webpage.
 
-       + The fonts in the theme are clear and modern and contribute perfectly to the overall elegant setting.
-   + Images
++ Returning Visitor Goals
 
-       + The images in the theme provide great content and presentation of the restaurant and serves as an enticement for the visitors.
-   + Wireframes
+   + As a returning visitor to the restaurant website, my goal is to quickly access the reservation system and make a reservation for a table. I also want to be able to view any updates or changes to the menu offerings and find information on any upcoming events or promotions. I want the website to remember my previous visit and provide personalized recommendations based on my preferences.
+
++ Admin/Staff Goals
+
+   + As an admin or staff member, my goal is to efficiently manage the restaurant's bookings and reservations using the admin panel provided. I want to be able to view and manage upcoming reservations, update the restaurant's availability, and manage the customer database. I also want to be able to receive notifications and alerts for any new reservations or changes to existing bookings.
+
++ Frequent User Goals
+     + As a frequent user of the restaurant website, I want to be able to easily access my account and view my past reservations.
+     + As a frequent user, I want to be able to save my favorite menu items and view recommendations based on my preferences.
+     + As a frequent user, I want to be able to earn rewards or loyalty points for my visits and reservations.
+     + As a frequent user, I want to be able to provide feedback and reviews on my dining experience to help improve the restaurant's service and offerings.
+
++ Agile methodology
+    + Our restaurant webpage project will follow the Agile methodology, which is a flexible and iterative approach to software development. This methodology emphasizes collaboration, communication, and adaptability to changing requirements.
+
+     +  With Agile, we will break down the project into smaller, more manageable tasks and prioritize them based on their importance and value to the end-users. We will also work in short, time-boxed iterations (usually called "sprints") to continuously deliver functional and tested features.
+
+    + To ensure effective collaboration and communication, we will hold daily stand-up meetings to discuss progress, identify any roadblocks, and plan the next steps. We will also regularly engage with the stakeholders (including restaurant owners and staff) to get their feedback and incorporate their input into the project.
+
+     + By using the Agile methodology, we can ensure that our project stays on track and meets the needs of our stakeholders. It also allows us to be more responsive to changing requirements or priorities, and to continuously improve the project based on feedback and testing.
++ Design
+     + Our restaurant webpage project will be designed with a focus on user experience and visual appeal. We aim to create an inviting and seamless experience for visitors that showcases the restaurant's unique personality and offerings.
+
+     + To achieve this, we will use a clean and modern design aesthetic that reflects the restaurant's brand identity. We will also prioritize ease of navigation and accessibility, ensuring that visitors can easily find the information they need and make a reservation with minimal effort.
+
+    + Our design process will involve creating wireframes and prototypes to test the usability and effectiveness of our design choices. We will also incorporate user feedback throughout the design process to ensure that the final product meets the needs and expectations of our target audience.
+
+     + In addition to the visual design, we will also ensure that the website is optimized for performance and accessibility. This includes using responsive design techniques to ensure that the website is functional and user-friendly on a variety of devices, and adhering to web accessibility guidelines to ensure that the website can be used by people with disabilities.
+
+     + By prioritizing design and user experience, we aim to create a restaurant webpage that stands out from the competition and delivers an exceptional experience for our visitors.
+<b>
+<b>
+
+[Back to top](#top)
+
+<b>
+<b>
+<b>
+
+
++ Colors and Fonts:
+    + Our restaurant webpage project will use a color scheme and font selection that reflect the restaurant's brand identity and evoke an elegant and upscale atmosphere.
+
+    + The main color used throughout the website will be black, which provides a classic and timeless feel. This color will be used as the background for the website, providing a neutral and elegant canvas for the content to stand out.
+
+    + To add a touch of sophistication and luxury, we will use gold accents for elements such as buttons, icons, symbols, links, and headings. This color choice complements the black background and enhances the premium look and feel of the webpage.
+
+     + In terms of fonts, we will use clear and modern fonts that are easy to read and contribute to the overall elegant setting. The font selection will reflect the restaurant's brand identity and add to the overall cohesiveness of the design.
+
++ Images
+      + The images used in the theme will be carefully curated to provide great content and presentation of the restaurant. They will serve as an enticement for the visitors and showcase the restaurant's unique personality and offerings. We will also ensure that the images are optimized for performance and accessibility, to ensure that they load quickly and can be viewed by a wide range of users.
+
+      + By using a cohesive color scheme, font selection, and image curation, we aim to create a visually appealing and engaging restaurant webpage that captures the attention of our visitors and reflects the restaurant's brand identity.
+
++ Wireframes
+   
+    + Wireframes are an essential step in the design process for any website. They provide a visual representation of the website's layout, content, and functionality, allowing for early feedback and iterations before the actual design process begins.
+
+    + For our restaurant webpage project, we have created wireframes that outline the key elements and functionality of the website. These wireframes include the homepage, menu page, reservation page, about us page, and contact page.
+
+    +  The wireframes for the homepage show the layout and placement of key elements such as the logo, navigation menu, call-to-action buttons, and featured images. The wireframes for the menu page show the organization of the menu items, pricing, and images. The wireframes for the reservation page show the form fields and steps required to make a reservation. The wireframes for the about us page show the layout of the content and images that provide information about the restaurant's history, team, and mission. The wireframes for the contact page show the form fields and contact information required for visitors to get in touch with the restaurant.
+
+   + These wireframes have been created with a focus on user experience, ensuring that the website is easy to navigate, visually appealing, and provides the necessary information for visitors to make reservations and learn about the restaurant. Once the wireframes have been approved, we will move on to the design process, using these wireframes as a foundation for the final design.
 
 
    <br>
