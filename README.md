@@ -138,13 +138,12 @@ Overall, My project goals are aimed at providing an exceptional user experience 
 
    + These wireframes have been created with a focus on user experience, ensuring that the website is easy to navigate, visually appealing, and provides the necessary information for visitors to make reservations and learn about the restaurant. Once the wireframes have been approved, we will move on to the design process, using these wireframes as a foundation for the final design.
    
-   <br>
-   
-[WIREFRAMES.md](./docs/WIREFRAMES.md)
-   
 <br>
    
-[WIREFRAMES_mobile.md](./docs/WIREFRAMES_mobile.md)
+[For Desktop view](./docs/WIREFRAMES.md)
+ 
+[For Mobile view](./docs/WIREFRAMES_mobile.md)
+
 
 
 
