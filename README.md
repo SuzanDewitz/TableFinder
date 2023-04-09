@@ -128,6 +128,7 @@ Overall, My project goals are aimed at providing an exceptional user experience 
     + By using a cohesive color scheme, font selection, and image curation, we aim to create a visually appealing and engaging restaurant webpage that captures the attention of our visitors and reflects the restaurant's brand identity.
 
 + Wireframes
+
    
     + Wireframes are an essential step in the design process for any website. They provide a visual representation of the website's layout, content, and functionality, allowing for early feedback and iterations before the actual design process begins.
 
@@ -136,6 +137,19 @@ Overall, My project goals are aimed at providing an exceptional user experience 
     +  The wireframes for the homepage show the layout and placement of key elements such as the logo, navigation menu, call-to-action buttons, and featured images. The wireframes for the menu page show the organization of the menu items, pricing, and images. The wireframes for the reservation page show the form fields and steps required to make a reservation. The wireframes for the about us page show the layout of the content and images that provide information about the restaurant's history, team, and mission. The wireframes for the contact page show the form fields and contact information required for visitors to get in touch with the restaurant.
 
    + These wireframes have been created with a focus on user experience, ensuring that the website is easy to navigate, visually appealing, and provides the necessary information for visitors to make reservations and learn about the restaurant. Once the wireframes have been approved, we will move on to the design process, using these wireframes as a foundation for the final design.
+   
+   <br>
+   
+[WIREFRAMES.md](./docs/WIREFRAMES.md)
+   
+<br>
+   
+[WIREFRAMES_mobile.md](./docs/WIREFRAMES_mobile.md)
+
+
+
+   <br>
+
 
 
    <br>
