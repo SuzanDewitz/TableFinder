@@ -1,5 +1,5 @@
 ## MainPage
-![image](https://user-images.githubusercontent.com/114075332/230747080-a6f76858-a9e5-4014-9110-8ffa6d43365a.png)
+![image](https://user-images.githubusercontent.com/114075332/230794737-5b9a3bad-a6be-463b-b029-850c3fbacf92.png)
 
 <br>
 
