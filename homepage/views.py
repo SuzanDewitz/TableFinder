@@ -4,6 +4,7 @@ from .forms import BookingForm
 
 # Create your views here.
 
+
 def home(request):
     """The view for the start page. Renders the index.html
     page which also extends the base.html
@@ -34,6 +35,7 @@ def booking_page(request):
     }
     return render(request, 'booking.html', context)
     
+
 def mybookings_page(request):
     """The view that renders the mybookings.html which shows all
     current booking by the user. Checks if user is logged in
@@ -48,6 +50,7 @@ def mybookings_page(request):
     else:
         return redirect('../accounts/signup')
     
+
 def edit_booking(request, booking_id):
     """The view that renders the edit_booking page where the user can
     update a current booking. Checks if current user matches the user
