@@ -48,5 +48,5 @@
 [Balsamiq open here](https://balsamiq.cloud/)
 
 
-[Return to README](./TableFinder/README.md)
+[Return to README.md](../README.md)
 
