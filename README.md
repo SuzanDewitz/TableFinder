@@ -142,7 +142,7 @@ Overall, My project goals are aimed at providing an exceptional user experience 
    
 [WIREFRAMES.md](./docs/WIREFRAMES.md)
    
-      <br>
+<br>
    
 [WIREFRAMES_mobile.md](./docs/WIREFRAMES_mobile.md)
 
