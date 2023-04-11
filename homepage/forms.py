@@ -19,3 +19,19 @@ class BookingForm(forms.ModelForm):
     name = forms.CharField(
         widget=forms.TextInput(attrs={'placeholder': 'Name'}),
     )
+
+    email = forms.EmailField(
+        widget=forms.TextInput(attrs={'placeholder': 'name@example.com'}),
+    )
+
+    phone = forms.IntegerField(
+        required=False,
+        widget=forms.TextInput(attrs={'placeholder': '+123456789'}),
+    )
+
+    class Meta:
+        model = Booking
+        exclude = ('user', )
+        widgets = {
+            'date': DateInput(),
+        }

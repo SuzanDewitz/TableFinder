@@ -1,8 +1,7 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import Booking
 from .forms import BookingForm
-
-# Create your views here.
+from django.contrib import messages
 
 
 def home(request):
@@ -34,7 +33,7 @@ def booking_page(request):
         'form': form
     }
     return render(request, 'booking.html', context)
-    
+
 
 def mybookings_page(request):
     """The view that renders the mybookings.html which shows all
@@ -49,7 +48,7 @@ def mybookings_page(request):
         return render(request, 'mybookings.html', context)
     else:
         return redirect('../accounts/signup')
-    
+
 
 def edit_booking(request, booking_id):
     """The view that renders the edit_booking page where the user can
@@ -57,7 +56,6 @@ def edit_booking(request, booking_id):
     that made the booking, otherwise it redirects to the mybookings_page.
     Uses the form data from the user to update the booking in the database.
     """
-
     booking = get_object_or_404(Booking, id=booking_id)
     if request.user != booking.user:
         return redirect('mybookings_page')
@@ -72,3 +70,16 @@ def edit_booking(request, booking_id):
         'form': form
     }
     return render(request, 'edit_booking.html', context)
+
+
+def delete_booking(request, booking_id):
+    """The view that performs the deletion of a booking.
+    Checks if current user matches the user that made the booking,
+    otherwise it redirects to the mybookings_page.
+    """
+    booking = get_object_or_404(Booking, id=booking_id)
+    if request.user != booking.user:
+        return redirect('mybookings_page')
+    booking.delete()
+    messages.success(request, 'Booking has been deleted')
+    return redirect('mybookings_page')

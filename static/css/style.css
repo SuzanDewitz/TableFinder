@@ -6,6 +6,7 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -60,6 +61,16 @@ h6 {
   width: 60px;
   height: 60px;
   animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes animate-preloader {
@@ -165,6 +176,22 @@ h6 {
   color: rgba(255, 255, 255, 0.5);
   content: "/";
 }
+
+/*--------------------------------------------------------------
+# Message Alert Bar
+--------------------------------------------------------------*/
+.alert-bar {
+  background-color: #221f1f;
+  border: 1px solid #cda45e;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  text-align: center;
+  opacity: 0.9;
+  z-index: 999;
+}
+
 
 /*--------------------------------------------------------------
 # Header
@@ -450,12 +477,37 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Registration and login page styling
+--------------------------------------------------------------*/
+.account-btn {
+  border: 2px solid #cda45e;
+  color: #fff;
+  background: rgb(0, 0, 0);
+  border-radius: 50px;
+  padding: 8px 25px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.account-btn:hover {
+  background: #cda45e;
+  color: #fff;
+}
+
+.height {
+  min-height: 60vh;
+}
+
+/*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("https://res.cloudinary.com/dbfux6vq8/image/upload/v1664223673/static/img/hero-bg.a369d8921565.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -559,10 +611,15 @@ h6 {
   position: absolute;
   width: 120px;
   height: 120px;
+  -webkit-animation-delay: 0s;
   animation-delay: 0s;
+  -webkit-animation: pulsate-btn 2s;
   animation: pulsate-btn 2s;
+  -webkit-animation-direction: forwards;
   animation-direction: forwards;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-timing-function: steps;
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
@@ -590,6 +647,7 @@ h6 {
   border-bottom: 10px solid transparent;
   border-left: 15px solid #fff;
   z-index: 200;
+  -webkit-animation: none;
   animation: none;
   border-radius: 0;
 }
@@ -626,6 +684,18 @@ h6 {
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
+  }
+}
+
+@-webkit-keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
   }
 }
 
@@ -1193,6 +1263,7 @@ section {
   margin: 0 10px -6px 0;
   border: 3px solid #cda45e;
   border-top-color: #1a1814;
+  -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
 
@@ -1460,6 +1531,7 @@ section {
   color: #bab3a6;
 }
 
+.contact .info .address,
 .contact .info .open-hours,
 .contact .info .email,
 .contact .info .phone {
@@ -1515,6 +1587,7 @@ section {
   margin: 0 10px -6px 0;
   border: 3px solid #cda45e;
   border-top-color: #1a1814;
+  -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
 
@@ -1562,6 +1635,16 @@ section {
 
 .contact .php-email-form button[type=submit]:hover {
   background: #d3af71;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes animate-loading {
