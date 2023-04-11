@@ -15,6 +15,8 @@ import os
 import dj_database_url
 from django.contrib.messages import constants as messages
 
+CLOUIDNARY_URL = os.environ.get('CLOUDINARY_URL')
+
 # credit: CI hello django walkthrough
 if os.path.isfile('env.py'):
     import env
