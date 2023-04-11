@@ -4,6 +4,9 @@ from .forms import BookingForm
 from django.contrib import messages
 
 
+# Create your views here.
+
+
 def home(request):
     """The view for the start page. Renders the index.html
     page which also extends the base.html
@@ -28,12 +31,12 @@ def booking_page(request):
         else:
             messages.error(
                 request, 'Invalid, incorrect info or double booking')
-    form = BookingForm()
+    form = BookingForm(instance=Booking())
     context = {
         'form': form
     }
     return render(request, 'booking.html', context)
-
+    
 
 def mybookings_page(request):
     """The view that renders the mybookings.html which shows all
@@ -48,7 +51,7 @@ def mybookings_page(request):
         return render(request, 'mybookings.html', context)
     else:
         return redirect('../accounts/signup')
-
+    
 
 def edit_booking(request, booking_id):
     """The view that renders the edit_booking page where the user can
@@ -56,6 +59,7 @@ def edit_booking(request, booking_id):
     that made the booking, otherwise it redirects to the mybookings_page.
     Uses the form data from the user to update the booking in the database.
     """
+
     booking = get_object_or_404(Booking, id=booking_id)
     if request.user != booking.user:
         return redirect('mybookings_page')
@@ -77,6 +81,7 @@ def delete_booking(request, booking_id):
     Checks if current user matches the user that made the booking,
     otherwise it redirects to the mybookings_page.
     """
+
     booking = get_object_or_404(Booking, id=booking_id)
     if request.user != booking.user:
         return redirect('mybookings_page')
