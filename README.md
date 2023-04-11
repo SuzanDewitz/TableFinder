@@ -138,35 +138,68 @@ Overall, My project goals are aimed at providing an exceptional user experience 
 
    + These wireframes have been created with a focus on user experience, ensuring that the website is easy to navigate, visually appealing, and provides the necessary information for visitors to make reservations and learn about the restaurant. Once the wireframes have been approved, we will move on to the design process, using these wireframes as a foundation for the final design.
    
-   <br>
+<br>
    
-[WIREFRAMES.md](./docs/WIREFRAMES.md)
+[For Desktop view](./docs/WIREFRAMES.md)
+ 
+[For Mobile view](./docs/WIREFRAMES_mobile.md)
+
+<br>
+   
+## Database Schema
+### Orders Table
+
+ ![image](https://user-images.githubusercontent.com/114075332/230800506-99d18626-92a2-40f4-834a-e340327bf053.png)
+  
+ <br>
+   
+The database design schema can be viewed below. It consists of an Orders Table that stores information about the orders placed by customers in the restaurant. The Orders Table has a unique identifier for each order, the name of the customer who placed the order, the table number where the customer is seated, the date and time the order was placed, a list of items ordered by the customer, the total cost of the order, and the payment status of the order.
    
 <br>
    
-[WIREFRAMES_mobile.md](./docs/WIREFRAMES_mobile.md)
-
-
-
+## Features
+   
+## Navbar 
++ The website's navbar displays all the available sections and provides convenient navigation for users. The "Make a Booking" link is prominently displayed and enlarged for easy access, ensuring a seamless booking experience.
+   
    <br>
+   
+ ## Hero  
+   
+ + The hero section is the first thing visitors see when they land on the site, so it's crucial to make a strong impression. It prominently features links to the menu and reservation pages, which are likely to be the most important sections for users. Additionally, there's a video presentation that showcases the restaurant and helps to further engage visitors. Overall, the hero section serves as an effective introduction to the restaurant and encourages visitors to explore the site further.  
+<br>
 
+## Menu
++ The Menu section showcases the wide range of dining options available at our restaurant, complete with enticing images and detailed descriptions. With the added functionality to filter options by meal type, customers can easily find the perfect dish to satisfy their cravings.
 
++ In the Menu section, customers can explore the diverse selection of dishes offered at our restaurant, each accompanied by mouth-watering images and comprehensive descriptions. The user-friendly filtering system allows for effortless navigation, making it easy to find and order the perfect meal.
 
-   <br>
-  <br>
++ Our Menu section provides a visual feast for customers, with vivid images and enticing descriptions of our entire menu. Whether you're in the mood for breakfast, lunch, or dinner, the user-friendly filtering feature ensures that you can quickly and easily find your desired meal.
 
-
-
-
+<br>
+   
+ ![image](https://user-images.githubusercontent.com/114075332/230801052-9e6f7e1e-79d7-4f28-875b-1c8b44bd30b1.png)
 
  <br>
+   
+  ## About 
+ + The About section provides a glimpse into the history and personality of the restaurant. Visitors can learn about the restaurant's founding, its values, and its unique features, such as its commitment to using locally sourced ingredients or its focus on sustainable practices. The section also includes photos and descriptions of the restaurant's interior and ambiance, giving visitors a sense of what to expect when dining there.
+   
+<br>
 
+![image](https://user-images.githubusercontent.com/114075332/230801403-c0384852-af51-44de-90b0-47d17bd45af5.png)
 
- <br>
-  <br>
-   <br>
+<br>
+   
+ ## Testimonials
+  + The testimonials section is a powerful tool for showcasing the positive experiences of previous customers, adding credibility and social proof to the restaurant's reputation. By sharing personal accounts of their experiences, it can help increase customer confidence and encourage bookings or visits to the restaurant.
+   
+<br>
     <br>
+    <br>
+    <br> <br>
 
+   
 
 
 
