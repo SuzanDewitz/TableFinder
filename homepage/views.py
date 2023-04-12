@@ -62,6 +62,7 @@ def edit_booking(request, booking_id):
 
     booking = get_object_or_404(Booking, id=booking_id)
     if request.user != booking.user:
+        messages.error(request, 'Sorry, you do not have permission to edit this booking.')
         return redirect('mybookings_page')
     if request.method == 'POST':
         form = BookingForm(request.POST, instance=booking)
