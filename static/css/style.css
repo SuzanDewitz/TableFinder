@@ -123,11 +123,7 @@ h6 {
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
-  }
-}
+
 
 /*--------------------------------------------------------------
 # Top Bar
@@ -548,9 +544,10 @@ h6 {
 
 #hero h2 {
   color: #eee;
-  margin-bottom: 10px 0 0 0;
+  margin-bottom: 10px;
   font-size: 22px;
 }
+
 
 #hero .btns {
   margin-top: 30px;
@@ -611,16 +608,8 @@ h6 {
   position: absolute;
   width: 120px;
   height: 120px;
-  -webkit-animation-delay: 0s;
   animation-delay: 0s;
-  -webkit-animation: pulsate-btn 2s;
-  animation: pulsate-btn 2s;
-  -webkit-animation-direction: forwards;
-  animation-direction: forwards;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-timing-function: steps;
-  animation-timing-function: steps;
+  animation: pulsate-btn 2s forwards infinite steps(10);
   opacity: 1;
   border-radius: 50%;
   border: 5px solid rgba(205, 164, 94, 0.7);
@@ -628,6 +617,7 @@ h6 {
   left: -15%;
   background: rgba(198, 16, 0, 0);
 }
+
 
 #hero .play-btn:hover::after {
   border-left: 15px solid #cda45e;
