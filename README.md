@@ -155,13 +155,13 @@ Overall, My project goals are aimed at providing an exceptional user experience 
 + Wireframes
 
   + Wireframes are an essential step in the design process for any website. They provide a visual representation of the website's layout, content, and functionality, allowing for 
-  early feedback and iterations before the actual design process begins.For our restaurant webpage project, we have created wireframes that outline the key elements and functionality
-  of the website. These wireframes include the homepage, menu page, reservation page, about us page, and contact page.The wireframes for the homepage show the layout and placement
-  of key elements such as the logo, navigation menu, call-to-action buttons, and featured images. The wireframes for the menu page show the organization of the menu items, pricing, 
-  and images. The wireframes for the reservation page show the form fields and steps required to make a reservation. The wireframes for the about us page show the layout of the 
-  content and images that provide information about the restaurant's history, team, and mission. The wireframes for the contact page show the form fields and contact information required for visitors to get in touch with the restaurant.These wireframes have been created with a focus on user experience, ensuring that the website is easy to navigate, visually appealing, 
-  and provides the necessary information for visitors to make reservations and learn about the restaurant. Once the wireframes have been approved, we will move on to the design process, 
-  using these wireframes as a foundation for the final design.
+    early feedback and iterations before the actual design process begins.For our restaurant webpage project, we have created wireframes that outline the key elements and functionality
+    of the website. These wireframes include the homepage, menu page, reservation page, about us page, and contact page.
+  + The wireframes for the homepage show the layout and placement of key elements such as the logo, navigation menu, call-to-action buttons, and featured images. 
+    The wireframes for the menu page show the organization of the menu items, pricing, and images. The wireframes for the reservation page show the form fields and steps required to
+    make a reservation. The wireframes for the about us page show the layout of the content and images that provide information about the restaurant's history, team, and mission. 
+  + The wireframes for the contact page show the form fields and contact information required for visitors to get in touch with the restaurant.These wireframes have been created with a focus on 
+    user experience, ensuring that the website is easy to navigate, visually appealing, and provides the necessary information for visitors to make reservations and learn about the restaurant. Once the wireframes have been approved, we will move on to the design process, using these wireframes as a foundation for the final design.
    
 <br>
    
@@ -176,7 +176,8 @@ Overall, My project goals are aimed at providing an exceptional user experience 
 + The database design schema can be viewed below. It consists of an Orders Table that stores information about the orders placed by customers in the restaurant. 
 The Orders Table has a unique identifier for each order, the name of the customer who placed the order, the table number where the customer is seated, 
 the date and time the order was placed, a list of items ordered by the customer, the total cost of the order, and the payment status of the order.
- ![image](../TableFinder/docs/img/databaseschema.png)
+
+ ![image](./docs/img/features/databaseschema.png)
 
 <br>
    
@@ -188,7 +189,7 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 <br>
 
-   ![image](../TableFinder/docs/img/navbar.png) 
+   ![image](./docs/img/features/navbar.png) 
 
 <br>
    
@@ -199,7 +200,7 @@ enlarged for easy access, ensuring a seamless booking experience.
   to further engage visitors. Overall, the hero section serves as an effective introduction to the restaurant and encourages visitors to explore the site further.  
 <br>
 
-![image](../TableFinder/docs/img/hero.png) 
+![image](../TableFinder/docs/img/features/hero.png) 
 
 <br>
 
@@ -212,7 +213,7 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 <br>
    
-![image](../TableFinder/docs/img/menu.png) 
+![image](../TableFinder/docs/img/features/menu.png) 
 
  <br>
    
@@ -223,7 +224,7 @@ enlarged for easy access, ensuring a seamless booking experience.
    
 <br>
 
-![image](../TableFinder/docs/img/about.png)
+![image](../TableFinder/docs/img/features/about.png)
 
 <br>
    
@@ -233,7 +234,7 @@ enlarged for easy access, ensuring a seamless booking experience.
    
 <br>
 
-![image](../TableFinder/docs/img/testimonials.png)
+![image](../TableFinder/docs/img/features/testimonials.png)
 
 <br>
 
@@ -243,7 +244,7 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 <br>
 
-![image](../TableFinder/docs/img/gallery.png)
+![image](../TableFinder/docs/img/features/gallery.png)
 
 <br> 
 
@@ -254,7 +255,7 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 <br>
 
-![image](../TableFinder/docs/img/contact%20.png)
+![image](../TableFinder/docs/img/features/contact.png)
 
 <br>
 
@@ -265,8 +266,8 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 <br>
 
-![image](../TableFinder/docs/img/account.png)
-![image](../TableFinder/docs/img/login.png)
+![image](../TableFinder/docs/img/features/account.png)
+![image](../TableFinder/docs/img/features/login.png)
 
 <br>
 
@@ -280,7 +281,7 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 <br>
 
-![image](../TableFinder/docs/img/booking.png)
+![image](../TableFinder/docs/img/features/booking.png)
 
 <br>
 
@@ -291,7 +292,7 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 <br>
 
-![image](../TableFinder/docs/img/mybookings.png)
+![image](../TableFinder/docs/img/features/mybookings.png)
 
 <br>
 
@@ -300,7 +301,7 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 <br>
 
-![image](../TableFinder/docs/img/delete.png)
+![image](../TableFinder/docs/img/features/delete.png)
 
 <br>
 
@@ -311,7 +312,7 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 <br>
 
-![image](../TableFinder/docs/img/footer.png)
+![image](../TableFinder/docs/img/features/footer.png)
 
 <br>
 
