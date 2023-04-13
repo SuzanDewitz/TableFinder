@@ -3,7 +3,9 @@
 <br>
 
 <p align="center">
-  <img src="../TableFinder/docs/img/amiresponsive.png" alt="Tablefinder Restaurant Logo">
+ <img src="../TableFinder/docs/img/features/amiresponsive.png" alt="Tablefinder Restaurant Logo">
+
+  
 </p>
 
 <br>
@@ -170,16 +172,12 @@ Overall, My project goals are aimed at providing an exceptional user experience 
 <br>
    
 ## Database Schema
-### Orders Table
-
- ![image](../TableFinder/docs/img/database%20schema%20.png)
-  
- <br>
-   
-The database design schema can be viewed below. It consists of an Orders Table that stores information about the orders placed by customers in the restaurant. 
+### Orders Table  
++ The database design schema can be viewed below. It consists of an Orders Table that stores information about the orders placed by customers in the restaurant. 
 The Orders Table has a unique identifier for each order, the name of the customer who placed the order, the table number where the customer is seated, 
 the date and time the order was placed, a list of items ordered by the customer, the total cost of the order, and the payment status of the order.
-   
+ ![image](../TableFinder/docs/img/databaseschema.png)
+
 <br>
    
 ## Features
@@ -188,7 +186,7 @@ the date and time the order was placed, a list of items ordered by the customer,
 + The website's navbar displays all the available sections and provides convenient navigation for users. The "Make a Booking" link is prominently displayed and 
 enlarged for easy access, ensuring a seamless booking experience.
 
-<br
+<br>
 
    ![image](../TableFinder/docs/img/navbar.png) 
 
@@ -206,10 +204,11 @@ enlarged for easy access, ensuring a seamless booking experience.
 <br>
 
 ## Menu
-+ The Menu section showcases the wide range of dining options available at our restaurant, complete with enticing images and detailed descriptions.With the added functionality to filter options by meal type, customers can easily find the perfect dish to satisfy their cravings.
-+ In the Menu section, customers can explore the diverse selection of dishes offered at our restaurant, each accompanied by mouth-watering images and comprehensive descriptions. The user-friendly filtering system allows for
-effortless navigation, making it easy to find and order the perfect meal.
-Our Menu section provides a visual feast for customers, with vivid images and enticing descriptions of our entire menu. Whether you're in the mood for breakfast, lunch, or dinner, the user-friendly filtering feature ensures that you can quickly and easily find your desired meal.
++ The Menu section showcases the wide range of dining options available at our restaurant, complete with enticing images and detailed descriptions.With the added functionality 
+  to filter options by meal type, customers can easily find the perfect dish to satisfy their cravings.
++ In the Menu section, customers can explore the diverse selection of dishes offered at our restaurant, each accompanied by mouth-watering images and comprehensive descriptions. 
+  The user-friendly filtering system allows for effortless navigation, making it easy to find and order the perfect meal.Our Menu section provides a visual feast for customers,
+   with vivid images and enticing descriptions of our entire menu. Whether you're in the mood for breakfast, lunch, or dinner, the user-friendly filtering feature ensures that you can quickly and easily find your desired meal.
 
 <br>
    
