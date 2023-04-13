@@ -3,7 +3,7 @@
 <br>
 
 <p align="center">
- <img src="../TableFinder/docs/img/features/amiresponsive.png" alt="Tablefinder Restaurant Logo">
+ <img src="./docs/img/features/amiresponsive.png" alt="Tablefinder Restaurant Logo">
 </p>
 
 <br>
@@ -198,7 +198,7 @@ enlarged for easy access, ensuring a seamless booking experience.
   to further engage visitors. Overall, the hero section serves as an effective introduction to the restaurant and encourages visitors to explore the site further.  
 <br>
 
-![image](../TableFinder/docs/img/features/hero.png) 
+![image](./docs/img/features/hero.png) 
 
 <br>
 
@@ -211,7 +211,7 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 <br>
    
-![image](../TableFinder/docs/img/features/menu.png) 
+![image](./docs/img/features/menu.png) 
 
  <br>
    
@@ -222,7 +222,7 @@ enlarged for easy access, ensuring a seamless booking experience.
    
 <br>
 
-![image](../TableFinder/docs/img/features/about.png)
+![image](./docs/img/features/about.png)
 
 <br>
    
@@ -232,7 +232,7 @@ enlarged for easy access, ensuring a seamless booking experience.
    
 <br>
 
-![image](../TableFinder/docs/img/features/testimonials.png)
+![image](./docs/img/features/testimonials.png)
 
 <br>
 
@@ -242,7 +242,7 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 <br>
 
-![image](../TableFinder/docs/img/features/gallery.png)
+![image](./docs/img/features/gallery.png)
 
 <br> 
 
@@ -253,7 +253,7 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 <br>
 
-![image](../TableFinder/docs/img/features/contact.png)
+![image](./docs/img/features/contact.png)
 
 <br>
 
@@ -264,8 +264,8 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 <br>
 
-![image](../TableFinder/docs/img/features/account.png)
-![image](../TableFinder/docs/img/features/login.png)
+![image](./docs/img/features/account.png)
+![image](./docs/img/features/login.png)
 
 <br>
 
@@ -279,7 +279,7 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 <br>
 
-![image](../TableFinder/docs/img/features/booking.png)
+![image](./docs/img/features/booking.png)
 
 <br>
 
@@ -290,7 +290,7 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 <br>
 
-![image](../TableFinder/docs/img/features/mybookings.png)
+![image](./docs/img/features/mybookings.png)
 
 <br>
 
@@ -299,7 +299,7 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 <br>
 
-![image](../TableFinder/docs/img/features/delete.png)
+![image](./docs/img/features/delete.png)
 
 <br>
 
@@ -310,7 +310,7 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 <br>
 
-![image](../TableFinder/docs/img/features/footer.png)
+![image](./docs/img/features/footer.png)
 
 <br>
 
