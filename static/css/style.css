@@ -123,7 +123,11 @@ h6 {
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
-
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0.1s !important;
+  }
+}
 
 /*--------------------------------------------------------------
 # Top Bar
@@ -608,14 +612,21 @@ h6 {
   position: absolute;
   width: 120px;
   height: 120px;
+  -webkit-animation-delay: 0s;
   animation-delay: 0s;
-  animation: pulsate-btn 2s forwards infinite steps(10);
+  -webkit-animation: pulsate-btn 2s;
+  animation: pulsate-btn 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: steps;
+  animation-timing-function: ease;
   opacity: 1;
   border-radius: 50%;
   border: 5px solid rgba(205, 164, 94, 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
+  animation-fill-mode: forwards; /* Add this line */
 }
 
 
