@@ -206,11 +206,10 @@ enlarged for easy access, ensuring a seamless booking experience.
 <br>
 
 ## Menu
-+ The Menu section showcases the wide range of dining options available at our restaurant, complete with enticing images and detailed descriptions.With the added 
-functionality to filter options by meal type, customers can easily find the perfect dish to satisfy their cravings.In the Menu section, customers can explore the diverse
-selection of dishes offered at our restaurant, each accompanied by mouth-watering images and comprehensive descriptions. The user-friendly filtering system allows for
-effortless navigation, making it easy to find and order the perfect meal.Our Menu section provides a visual feast for customers, with vivid images and enticing descriptions 
-of our entire menu. Whether you're in the mood for breakfast, lunch, or dinner, the user-friendly filtering feature ensures that you can quickly and easily find your desired meal.
++ The Menu section showcases the wide range of dining options available at our restaurant, complete with enticing images and detailed descriptions.With the added functionality to filter options by meal type, customers can easily find the perfect dish to satisfy their cravings.
++ In the Menu section, customers can explore the diverse selection of dishes offered at our restaurant, each accompanied by mouth-watering images and comprehensive descriptions. The user-friendly filtering system allows for
+effortless navigation, making it easy to find and order the perfect meal.
+Our Menu section provides a visual feast for customers, with vivid images and enticing descriptions of our entire menu. Whether you're in the mood for breakfast, lunch, or dinner, the user-friendly filtering feature ensures that you can quickly and easily find your desired meal.
 
 <br>
    
@@ -373,7 +372,9 @@ of our entire menu. Whether you're in the mood for breakfast, lunch, or dinner, 
 ## Testing 
 A separate document for testing can be viewed here: [TESTING.md](https://github.com/SuzanDewitz/TableFinder/blob/main/docs/TESTING.md)
 
-  <br>
+<br>
+
+
    <br>
     <br>
      <br>
