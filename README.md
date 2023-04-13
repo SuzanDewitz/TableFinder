@@ -4,8 +4,6 @@
 
 <p align="center">
  <img src="../TableFinder/docs/img/features/amiresponsive.png" alt="Tablefinder Restaurant Logo">
-
-  
 </p>
 
 <br>
