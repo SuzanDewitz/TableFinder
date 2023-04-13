@@ -272,7 +272,7 @@ enlarged for easy access, ensuring a seamless booking experience.
 ## Booking page
   + The booking page is a crucial feature of the website, allowing customers to easily make reservations online. Visitors can select the date and time they want to reserve a table for,
    specify the number of people in their party, and make any special requests they may have. The booking page is designed to be user-friendly and intuitive, providing a quick and effortless booking experience for customers.Customers can also log in to their account to view their booking history, make changes to their upcoming reservations, and cancel if necessary. 
-   This feature makes it easier for customers to manage their reservations and ensure that everything is in order.In addition to the booking form, the Booking page 
+  + This feature makes it easier for customers to manage their reservations and ensure that everything is in order.In addition to the booking form, the Booking page 
    may feature helpful information, such as available dates and times, as well as any special promotions or deals currently available. Once a reservation is submitted, 
    it is saved and can be viewed by the customer in their personal My Bookings page, making it easy to keep track of their reservations.
    Overall, the Booking page is an essential component of the Tablefinder Restaurant website, making the process of reserving a table quick and effortless for customers.
@@ -284,9 +284,14 @@ enlarged for easy access, ensuring a seamless booking experience.
 <br>
 
 ## Mybookings
-  + The Mybookings page is an essential part of the website. It provides customers with a clear overview of their current and past reservations. Visitors can quickly and easily access their booking details, including the date, time, and number of guests, in a single location. The Mybookings page is designed to be intuitive and user-friendly, allowing customers to easily manage their reservations. In addition to viewing their current bookings, customers can also make changes to their reservations directly from the Mybookings page. By clicking on the "change" button, customers can update their reservation details, such as the date, time, or number of guests. Once the changes are saved, the updated information will be displayed on the Mybookings page.
-  Moreover, the Mybookings page provides customers with the ability to delete a reservation if necessary. By clicking on the "delete" button, customers can remove a booking from their list of reservations. This feature makes it easy for customers to cancel a reservation they no longer need, freeing up space for other diners.
-  Overall, the Mybookings page is a convenient and user-friendly way for customers to manage their reservations at Tablefinder Restaurant.
+  + The Mybookings page is an essential part of the website. It provides customers with a clear overview of their current and past reservations.
+    Visitors can quickly and easily access their booking details, including the date, time, and number of guests, in a single location. 
+  + The Mybookings page is designed to be intuitive and user-friendly, allowing customers to easily manage their reservations. In addition to viewing their current bookings,
+    customers can also make changes to their reservations directly from the Mybookings page. By clicking on the "change" button, customers can update their reservation details,
+     such as the date, time, or number of guests. 
+   + Once the changes are saved, the updated information will be displayed on the Mybookings page.Moreover, the Mybookings page provides customers with the ability 
+    to delete a reservation if necessary. By clicking on the "delete" button, customers can remove a booking from their list of reservations. This feature makes it easy for
+    customers to cancel a reservation they no longer need, freeing up space for other diners.Overall, the Mybookings page is a convenient and user-friendly way for customers to manage their reservations at Tablefinder Restaurant.
 
 <br>
 
