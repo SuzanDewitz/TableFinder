@@ -18,7 +18,6 @@
 
 <br>
 
-<<<<<<< HEAD
    - [User Experience (UX)](https://github.com/SuzanDewitz/TableFinder#/user-experience)
    - [Project goals](https://github.com/SuzanDewitz/TableFinder#project-goals)
    - [User Stories](https://github.com/SuzanDewitz/TableFinder#user-stories)
@@ -41,7 +40,6 @@
     - [Forking the GitHub Repository](https://github.com/SuzanDewitz/TableFinder#forking-the-github-repository)
     - [Running the project locally](https://github.com/SuzanDewitz/TableFinder#running-the-project-locally)
     - [Deploying with Heroku](https://github.com/SuzanDewitz/TableFinder#deploying-with-heroku)
-=======
 - [User Experience (UX)](UX_URL)
    - [Project goals](https://github.com/SuzanDewitz/TableFinder#project-goals)
    - [User Stories](User_Stories_URL)
@@ -49,7 +47,6 @@
    - [Design](Design_URL)
         - [Wireframes](Wireframes_URL)
         - [Database Schema](Database_Schema_URL)
->>>>>>> 8fc82800a7bfd9ca77150b9a896a39f3f339071c
 
 - [Credits](https://github.com/SuzanDewitz/TableFinder#credits)
 
