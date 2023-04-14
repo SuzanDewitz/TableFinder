@@ -15,7 +15,7 @@ import os
 import dj_database_url
 from django.contrib.messages import constants as messages
 
-CLOUDINARY_STORAGE = {'CLOUDINARY_URL':os.environ.get('CLOUDINARY_URL')}
+CLOUDINARY_STORAGE = {'CLOUDINARY_URL': os.environ.get('CLOUDINARY_URL')}
 
 # credit: CI hello django walkthrough
 if os.path.isfile('env.py'):
@@ -81,8 +81,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-   
-]
+   ]
 
 ROOT_URLCONF = 'tablefinder.urls'
 
@@ -123,25 +122,26 @@ DATABASES = {
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
-    {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
-    },
+      {
+        'NAME': 'django.contrib.auth.password_validation.'
+                'UserAttributeSimilarityValidator',
+      },
+      {
+        'NAME': 'django.contrib.auth.password_validation.'
+                'MinimumLengthValidator',
+      },
+      {
+        'NAME': 'django.contrib.auth.password_validation.'
+                'CommonPasswordValidator',
+      },
+      {
+        'NAME': 'django.contrib.auth.password_validation.'
+                'NumericPasswordValidator',
+      },
 ]
-
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
-
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
@@ -160,7 +160,9 @@ USE_TZ = True
 
 # credit: CI hello django walkthrough
 STATIC_URL = '/static/'
-STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
+STATICFILES_STORAGE = (
+    'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
+)
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_URL = '/media/'
