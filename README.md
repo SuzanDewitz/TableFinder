@@ -8,57 +8,47 @@
 
 <br>
 
-#### This is a web application designed to help restaurant customers find their ideal dining experience in New York.   As the fourth project in the Code Institute Full Stack Developer program, TableFinder provides a user-friendly platform for  customers to discover great food and a cool atmosphere while hanging out with friends or family.
+#### This is a web application designed to help restaurant customers find their ideal dining experience in New York.As the fourth project in the Code Institute Full Stack Developer program, TableFinder provides a user-friendly platform for  customers to discover great food and a cool atmosphere while hanging out with friends or family.
 
 #### Our website features a sleek and modern design, highlighting the unique interiors and atmospheres of each restaurant we   showcase. Additionally, TableFinder includes an intuitive account registration and booking system, allowing customers to make and manage their reservations directly through our platform.Whether you're a local or just visiting, TableFinder is the perfect resource for finding your next favorite dining spot in the city. Join us and discover what New York's vibrant food scene has to offer!
 
-<br>
 <br>
 
 [View the live project here](https://tablefinder.herokuapp.com/)
 
 <br>
 
-- [User Experience (UX)](UX_URL)
-   - [Project goals](Project_goals_URL)
-   - [User Stories](User_Stories_URL)
-   - [Agile Methodology](Agile_Methodology_URL)
-   - [Design](Design_URL)
-        - [Wireframes](Wireframes_URL)
-        - [Database Schema](Database_Schema_URL)
+   - [User Experience (UX)](https://github.com/SuzanDewitz/TableFinder#/user-experience)
+   - [Project goals](https://github.com/SuzanDewitz/TableFinder#project-goals)
+   - [User Stories](https://github.com/SuzanDewitz/TableFinder#user-stories)
+   - [Agile Methodology](https://github.com/SuzanDewitz/TableFinder#agile-methodology)
+   - [Design](https://github.com/SuzanDewitz/TableFinder#design)
+        - [Wireframes](https://github.com/SuzanDewitz/TableFinder#wireframes)
+        - [Database Schema](https://github.com/SuzanDewitz/TableFinder#database-schema)
+   - [Features](https://github.com/SuzanDewitz/TableFinder#features)
+        - [Future Features](https://github.com/SuzanDewitz/TableFinder#future-features)
+        - [Responsive Design](https://github.com/SuzanDewitz/TableFinder#responsive-design)
+   - [Technologies](https://github.com/SuzanDewitz/TableFinder#technologies)
+       - [Languages](https://github.com/SuzanDewitz/TableFinder#languages)
+       - [Frameworks and Libraries](https://github.com/SuzanDewitz/TableFinder#frameworks-and-libraries)
+        - [Tools](https://github.com/SuzanDewitz/TableFinder#tools)
+  - [Testing](https://github.com/SuzanDewitz/TableFinder#testing)
+      - [Bugs](https://github.com/SuzanDewitz/TableFinder#bugs)
+      - [Fixed Bugs](https://github.com/SuzanDewitz/TableFinder#fixed-bugs)
+      - [Remaining Bugs](https://github.com/SuzanDewitz/TableFinder#remaining-bugs)
+  - [Deployment](https://www.heroku.com/)
+    - [Forking the GitHub Repository](https://github.com/SuzanDewitz/TableFinder#forking-the-github-repository)
+    - [Running the project locally](https://github.com/SuzanDewitz/TableFinder#running-the-project-locally)
+    - [Deploying with Heroku](https://github.com/SuzanDewitz/TableFinder#deploying-with-heroku)
 
+- [Credits](https://github.com/SuzanDewitz/TableFinder#credits)
 
-[Features](https://www.productplan.com/glossary/product-features/)
-
-
-
- - [Future Features](https://www.example.com/future-features)
-
-+ [Responsive Design](https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/)
-
-[Technologies](https://en.wikipedia.org/wiki/List_of_programming_languages)
-
-  + [Languages](https://en.wikipedia.org/wiki/List_of_programming_languages)
- 
-  + [Frameworks and Libraries](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries)
-
-  + [Tools](https://www.codecademy.com/resources/blog/the-best-ide-for-web-development-in-2021/)
-
-[Testing](https://www.guru99.com/software-testing.html)
-
-[Deployment](https://www.heroku.com/)
-
-[Credits](https://github.com/SuzanDewitz)
-
-  + [Code](https://github.com/SuzanDewitz/TableFinder)
-
-  + [Content](https://www.productplan.com/glossary/product-content/)
-
-  + [Media](https://www.canva.com/)
-
-  + [Inspiration](https://dribbble.com/)
-
-  + [Acknowledgments](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
+  + [Code](https://github.com/SuzanDewitz/TableFinder#code)
+  + [Inspiration](https://github.com/SuzanDewitz/TableFinder#inspiration)
+  + [Content](https://github.com/SuzanDewitz/TableFinder#content)
+  + [Media](https://github.com/SuzanDewitz/TableFinder#media)
+  + [Inspiration](https://github.com/SuzanDewitz/TableFinder#inspiration)
+  + [Acknowledgments](https://github.com/SuzanDewitz/TableFinder#acknowledgments)
 
 
   <br>
@@ -424,7 +414,6 @@ A separate document for testing can be viewed here: [TESTING.md](https://github.
 
 ![image](./docs/img/features/functionality.png)
 
-
 <br>
 
 ## Deployment
@@ -457,17 +446,47 @@ A separate document for testing can be viewed here: [TESTING.md](https://github.
 <br>
 
  ## Inspiration 
+ + My goal in creating the Restaurant Booking System was to build a high-quality, user-friendly platform that would streamline the process of making restaurant reservations. 
+   I drew inspiration from several sources, including:
+   - The Hello Django project
+   - The I Think Therefore I Blog project
+   - The user experience and design aesthetic of popular reservation systems like OpenTable and Resy
+   - The latest trends in web development, including responsive design and real-time updates
+   - The open-source community and the many resources available for building scalable web applications
+
++ Our system would meet the needs of both parties. By leveraging these sources of inspiration,I aimed to create a best-in-class platform that would make
+   restaurant bookings easier and more enjoyable for everyone involved.
+
+<br>
+
+# Content
+
+   + The restaurant booking system is built entirely with Bootstrap, a popular front-end web development framework. I used Bootstrap's pre-designed components
+     and templates to create a visually appealing and user-friendly interface for the customers.
+
+   + By leveraging Bootstrap's powerful CSS and JavaScript components, I were able to create a cohesive design language across the entire website. 
+     This helped to ensure that the user experience is consistent and intuitive, regardless of which page the user is on.
+
+   + Additionally, I customized certain aspects of the design to fit our specific branding and content needs. For example, 
+    I used Bootstrap's form components to create a reservation form that seamlessly integrates into the overall design of the website.
+
+   + "I found that using Bootstrap allowed me to create a high-quality and professional-looking restaurant booking system in a fraction of the time it would have taken to
+    develop from scratch. By utilizing the pre-built components and responsive design of Bootstrap, I was able to focus on the functionality and user experience of the system, 
+    ultimately delivering a product that exceeded our client's expectations."
+
+<br>
 
 ## Media
   + The images in the project comes from the[Restaurantly Boostrap theme](https://bootstrapmade.com/restaurantly-restaurant-template/)
   + The video in the project comes from the[Restaurantly Boostrap theme](https://bootstrapmade.com/restaurantly-restaurant-template/)
 
-  <br>
+<br>
 
 ## Acknowledgements
   + The tutor support team at Code Institute for their support.
   + My Code Institute Mentor for feedback and suggestions.
   + The Code Institute Slack community.
+
 <br>
 
 
