@@ -97,7 +97,7 @@ Overall, My project goals are aimed at providing an exceptional user experience 
      + As a frequent user, I want to be able to provide feedback and reviews on my dining experience to help improve the restaurant's service and offerings.
 
 ## Agile methodology
-    + Our restaurant webpage project will follow the Agile methodology, which is a flexible and iterative approach to software development. This methodology emphasizes collaboration, communication, and adaptability to changing requirements.
+  + Our restaurant webpage project will follow the Agile methodology, which is a flexible and iterative approach to software development. This methodology emphasizes collaboration, communication, and adaptability to changing requirements.
 
      +  With Agile, we will break down the project into smaller, more manageable tasks and prioritize them based on their importance and value to the end-users. We will also work in short, time-boxed iterations (usually called "sprints") to continuously deliver functional and tested features.
 
@@ -105,7 +105,7 @@ Overall, My project goals are aimed at providing an exceptional user experience 
 
      + By using the Agile methodology, we can ensure that our project stays on track and meets the needs of our stakeholders. It also allows us to be more responsive to changing requirements or priorities, and to continuously improve the project based on feedback and testing.
 ## Design
-     + Our restaurant webpage project will be designed with a focus on user experience and visual appeal. We aim to create an inviting and seamless experience for visitors that showcases the restaurant's unique personality and offerings.
+  + Our restaurant webpage project will be designed with a focus on user experience and visual appeal. We aim to create an inviting and seamless experience for visitors that showcases the restaurant's unique personality and offerings.
 
      + To achieve this, we will use a clean and modern design aesthetic that reflects the restaurant's brand identity. We will also prioritize ease of navigation and accessibility, ensuring that visitors can easily find the information they need and make a reservation with minimal effort.
 
@@ -327,20 +327,19 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 <br>
 
-### Frameworks, Libraries, Programs
+## Frameworks, Libraries, Programs
+  + Python Built-in Modules
+  + [Os](https://docs.python.org/3/library/os.html)
   + [Django](https://www.djangoproject.com/)
 
 <br>
 
-### Database
- + [Postgresql](https://www.postgresql.org/)
-
- <br>
 
 ## Programs & Tools
 
 <br>
 
+  + [Postgresql](https://www.postgresql.org/): Database
   + [Google Fonts](https://fonts.google.com/): Was used to to incorporate font styles.
   + [Gitpod](https://gitpod.io/workspaces)Gitpod was used as IDE to commit and push the project to GitHub..
   + [Bootstrap](https://getbootstrap.com/) Was used to create the front-end design.
@@ -363,22 +362,9 @@ enlarged for easy access, ensuring a seamless booking experience.
 <br>
 
 ## Testing 
-A separate document for testing can be viewed here: [TESTING.md](https://github.com/SuzanDewitz/TableFinder/blob/main/docs/TESTING.md)
++ A separate document for testing can be viewed here: [TESTING.md](https://github.com/SuzanDewitz/TableFinder/blob/main/docs/TESTING.md)
 
-<br>
-
-## Bugs
-
-<br>
-
-### Fixed Bugs
-
-
-
-<br>
-
-### Unresolved Bugs
-#### No known bugs remaining
++ A separate document for validator can be viewed here: [validator](https://github.com/SuzanDewitz/TableFinder/tree/main/docs/img/validator)
 
 
 <br>
@@ -432,6 +418,18 @@ A separate document for testing can be viewed here: [TESTING.md](https://github.
   5. Click on the 'Deploy' tab. Next to 'Deployment method' select 'GitHub'. Connect the relevant GitHub repository. Under 'Manual deploy' choose the correct branch and click 'Deploy Branch'. Also you can select 'Automatic Deploys' so that the site updates when updates are pushed to GitHub.
 
   6. After successful deployment message in the page top right corner click the button labeled 'Open app' and you can access live app.
+
+
+### Heroku Deployment
+#### In the Deploy tab:
+
+1. Connect your Heroku account to your Github Repository following these steps:
+   - Click on the Deploy tab and choose Github-Connect to Github.
+   - Enter the GitHub repository name and click on Search.
+   - Choose the correct repository for your application and click on Connect.
+2. You can then choose to deploy the project manually or automatically, automatic deployment will generate a new application every time you push a change to Github,
+   whereas manual deployment requires you to push the Deploy Branch button whenever you want a change made.
+   Once you have chosen your deployment method and have clicked Deploy Branch your application will be built and you should now see the View button, click this to open your application.
 
 <br>
 
