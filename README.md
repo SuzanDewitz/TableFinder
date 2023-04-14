@@ -19,10 +19,10 @@
 <br>
 
    - [User Experience (UX)](https://github.com/SuzanDewitz/TableFinder#user-experience-ux)
-   - [Project goals](https://github.com/SuzanDewitz/TableFinder#project-goals)
-   - [User Stories](https://github.com/SuzanDewitz/TableFinder#user-stories)
-   - [Agile Methodology](https://github.com/SuzanDewitz/TableFinder#agile-methodology)
-   - [Design](https://github.com/SuzanDewitz/TableFinder#design)
+      - [Project goals](https://github.com/SuzanDewitz/TableFinder#project-goals)
+      - [User Stories](https://github.com/SuzanDewitz/TableFinder#user-stories)
+      - [Agile Methodology](https://github.com/SuzanDewitz/TableFinder#agile-methodology)
+      - [Design](https://github.com/SuzanDewitz/TableFinder#design)
         - [Wireframes](https://github.com/SuzanDewitz/TableFinder#wireframes)
         - [Database Schema](https://github.com/SuzanDewitz/TableFinder#database-schema)
    - [Features](https://github.com/SuzanDewitz/TableFinder#features)
@@ -31,7 +31,7 @@
    - [Technologies](https://github.com/SuzanDewitz/TableFinder#technologies)
        - [Languages](https://github.com/SuzanDewitz/TableFinder#languages)
        - [Frameworks and Libraries](https://github.com/SuzanDewitz/TableFinder#frameworks-and-libraries)
-        - [Tools](https://github.com/SuzanDewitz/TableFinder#tools)
+       - [Tools](https://github.com/SuzanDewitz/TableFinder#tools)
   - [Testing](https://github.com/SuzanDewitz/TableFinder#testing)
       - [Bugs](https://github.com/SuzanDewitz/TableFinder#bugs)
       - [Fixed Bugs](https://github.com/SuzanDewitz/TableFinder#fixed-bugs)
@@ -40,22 +40,15 @@
     - [Forking the GitHub Repository](https://github.com/SuzanDewitz/TableFinder#forking-the-github-repository)
     - [Running the project locally](https://github.com/SuzanDewitz/TableFinder#running-the-project-locally)
     - [Deploying with Heroku](https://github.com/SuzanDewitz/TableFinder#deploying-with-heroku)
-- [User Experience (UX)](UX_URL)
-   - [Project goals](https://github.com/SuzanDewitz/TableFinder#project-goals)
-   - [User Stories](User_Stories_URL)
-   - [Agile Methodology](Agile_Methodology_URL)
-   - [Design](Design_URL)
-        - [Wireframes](Wireframes_URL)
-        - [Database Schema](Database_Schema_URL)
 
 - [Credits](https://github.com/SuzanDewitz/TableFinder#credits)
 
-  + [Code](https://github.com/SuzanDewitz/TableFinder#code)
-  + [Inspiration](https://github.com/SuzanDewitz/TableFinder#inspiration)
-  + [Content](https://github.com/SuzanDewitz/TableFinder#content)
-  + [Media](https://github.com/SuzanDewitz/TableFinder#media)
-  + [Inspiration](https://github.com/SuzanDewitz/TableFinder#inspiration)
-  + [Acknowledgments](https://github.com/SuzanDewitz/TableFinder#acknowledgments)
+    + [Code](https://github.com/SuzanDewitz/TableFinder#code)
+    + [Inspiration](https://github.com/SuzanDewitz/TableFinder#inspiration)
+    + [Content](https://github.com/SuzanDewitz/TableFinder#content)
+    + [Media](https://github.com/SuzanDewitz/TableFinder#media)
+    + [Inspiration](https://github.com/SuzanDewitz/TableFinder#inspiration)
+    + [Acknowledgments](https://github.com/SuzanDewitz/TableFinder#acknowledgments)
 
 
   <br>
@@ -80,7 +73,7 @@ By providing a user-friendly and intuitive booking system, the website aims to p
 <br>
 Overall, My project goals are aimed at providing an exceptional user experience to your visitors and making the booking process easy and convenient for them. By achieving these goals, you can enhance the reputation of the restaurant and attract more customers to the establishment..
 
-+ User stories
+## User stories
    + First Time Visitor Goals
 
   + As a first-time visitor to the restaurant website, my goal is to learn about the restaurant's menu offerings, location, hours of operation, and contact information. I want to be able to navigate the website easily and find the information I need quickly. I also want to be able to make a reservation for a table directly on the webpage and have the option to view the restaurant's reviews and ratings.
@@ -103,7 +96,7 @@ Overall, My project goals are aimed at providing an exceptional user experience 
      + As a frequent user, I want to be able to earn rewards or loyalty points for my visits and reservations.
      + As a frequent user, I want to be able to provide feedback and reviews on my dining experience to help improve the restaurant's service and offerings.
 
-+ Agile methodology
+## Agile methodology
     + Our restaurant webpage project will follow the Agile methodology, which is a flexible and iterative approach to software development. This methodology emphasizes collaboration, communication, and adaptability to changing requirements.
 
      +  With Agile, we will break down the project into smaller, more manageable tasks and prioritize them based on their importance and value to the end-users. We will also work in short, time-boxed iterations (usually called "sprints") to continuously deliver functional and tested features.
@@ -111,7 +104,7 @@ Overall, My project goals are aimed at providing an exceptional user experience 
     + To ensure effective collaboration and communication, we will hold daily stand-up meetings to discuss progress, identify any roadblocks, and plan the next steps. We will also regularly engage with the stakeholders (including restaurant owners and staff) to get their feedback and incorporate their input into the project.
 
      + By using the Agile methodology, we can ensure that our project stays on track and meets the needs of our stakeholders. It also allows us to be more responsive to changing requirements or priorities, and to continuously improve the project based on feedback and testing.
-+ Design
+## Design
      + Our restaurant webpage project will be designed with a focus on user experience and visual appeal. We aim to create an inviting and seamless experience for visitors that showcases the restaurant's unique personality and offerings.
 
      + To achieve this, we will use a clean and modern design aesthetic that reflects the restaurant's brand identity. We will also prioritize ease of navigation and accessibility, ensuring that visitors can easily find the information they need and make a reservation with minimal effort.
@@ -147,7 +140,7 @@ Overall, My project goals are aimed at providing an exceptional user experience 
     and engaging restaurant webpage that captures the attention
     of our visitors and reflects the restaurant's brand identity.
 
-+ Wireframes
+## Wireframes
 
   + Wireframes are an essential step in the design process for any website. They provide a visual representation of the website's layout, content, and functionality, allowing for 
     early feedback and iterations before the actual design process begins.For our restaurant webpage project, we have created wireframes that outline the key elements and functionality
