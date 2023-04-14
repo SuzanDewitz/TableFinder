@@ -20,7 +20,7 @@
 <br>
 
 - [User Experience (UX)](UX_URL)
-   - [Project goals](Project_goals_URL)
+   - [Project goals](https://github.com/SuzanDewitz/TableFinder#project-goals)
    - [User Stories](User_Stories_URL)
    - [Agile Methodology](Agile_Methodology_URL)
    - [Design](Design_URL)
