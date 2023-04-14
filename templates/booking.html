@@ -1,14 +1,14 @@
 {% extends "base.html" %}
 
 {% block content %}
-<!-- The booking form that is used to make a booking -->
 <section>
   <div class="container height mt-5 pt-5">
     <div class="row">
       <div class="col-md-8 mt-3 offset-md-2">
+        <h2>Make your Booking</h2>
+        <!-- The booking form that is used to make a booking -->
         {% if user.is_authenticated %}
-        <h3>Make your Booking</h3>
-
+        
         <form method="POST">
           {% csrf_token %}
           {{ form.as_p }}

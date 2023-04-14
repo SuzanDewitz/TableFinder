@@ -18,7 +18,7 @@
 
 <br>
 
-   - [User Experience (UX)](https://github.com/SuzanDewitz/TableFinder#/user-experience)
+   - [User Experience (UX)](https://github.com/SuzanDewitz/TableFinder#user-experience-ux)
    - [Project goals](https://github.com/SuzanDewitz/TableFinder#project-goals)
    - [User Stories](https://github.com/SuzanDewitz/TableFinder#user-stories)
    - [Agile Methodology](https://github.com/SuzanDewitz/TableFinder#agile-methodology)
@@ -493,7 +493,7 @@ A separate document for testing can be viewed here: [TESTING.md](https://github.
   + The tutor support team at Code Institute for their support.
   + My Code Institute Mentor for feedback and suggestions.
   + The Code Institute Slack community.
-
+  + 
 <br>
 
 
