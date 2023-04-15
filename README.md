@@ -503,7 +503,7 @@ I followed the below steps using the Code Institute walkthrough:
    - Choose the correct repository for your application and click on Connect.
 2. I can then choose to deploy the project manually or automatically, automatic deployment will generate a new application every time you push a change to Github,
    whereas manual deployment requires you to push the Deploy Branch button whenever you want a change made.
-   Once you have chosen your deployment method and have clicked Deploy Branch your application will be built and you should now see the View button, click this to open your application.
+3. Once you have chosen your deployment method and have clicked Deploy Branch your application will be built and you should now see the View button, click this to open your application.
 
 <br>
 
