@@ -67,15 +67,15 @@ The project goals are focused on creating an attractive and user-friendly restau
 <br>
 
 
-By providing a user-friendly and intuitive booking system, the website aims to provide an excellent user experience and encourage visitors to make reservations quickly and easily. Additionally, the website will also provide a booking management admin panel for the staff members to help them manage the reservations more efficiently.
-<br>
-<br>
-Overall, My project goals are aimed at providing an exceptional user experience to your visitors and making the booking process easy and convenient for them. By achieving these goals, you can enhance the reputation of the restaurant and attract more customers to the establishment..
+By providing a user-friendly and intuitive booking system, the website aims to provide an excellent user experience and encourage visitors to make reservations quickly and easily.
+ Additionally, the website will also provide a booking management admin panel for the staff members to help them manage the reservations more efficiently.
+Overall, My project goals are aimed at providing an exceptional user experience to visitors and making the booking process easy and convenient for them. 
 
 ## User stories
-   + First Time Visitor Goals
-
-  + As a first-time visitor to the restaurant website, my goal is to learn about the restaurant's menu offerings, location, hours of operation, and contact information. I want to be able to navigate the website easily and find the information I need quickly. I also want to be able to make a reservation for a table directly on the webpage and have the option to view the restaurant's reviews and ratings.
+  + First Time Visitor Goals
+  + As a first-time visitor to the restaurant website, my goal is to learn about the restaurant's menu offerings, location, hours of operation, and contact information.
+   I want to be able to navigate the website easily and find the information I need quickly. I also want to be able to make a reservation for a table directly on
+    the webpage and have the option to view the restaurant's reviews and ratings.
 
    + As a first-time visitor, I want to learn about the restaurant's history and get a feel for the atmosphere and ambiance.
    + As a first-time visitor, I want to browse the menu and learn about the restaurant's food offerings.
@@ -96,21 +96,22 @@ Overall, My project goals are aimed at providing an exceptional user experience 
      + As a frequent user, I want to be able to provide feedback and reviews on my dining experience to help improve the restaurant's service and offerings.
 
 ## Agile methodology
-  + Our restaurant webpage project will follow the Agile methodology, which is a flexible and iterative approach to software development. This methodology emphasizes collaboration, communication, and adaptability to changing requirements.
+  + The restaurant webpage project will follow the Agile methodology, which is a flexible and iterative approach to software development. This methodology emphasizes collaboration, communication, and adaptability to changing requirements.
 
      +  With Agile, we will break down the project into smaller, more manageable tasks and prioritize them based on their importance and value to the end-users. We will also work in short, time-boxed iterations (usually called "sprints") to continuously deliver functional and tested features.
 
-    + To ensure effective collaboration and communication, we will hold daily stand-up meetings to discuss progress, identify any roadblocks, and plan the next steps. We will also regularly engage with the stakeholders (including restaurant owners and staff) to get their feedback and incorporate their input into the project.
+    + To ensure effective collaboration and communication, To hold daily stand-up meetings to discuss progress, identify any roadblocks, and plan the next steps. Also regularly engage with the stakeholders (including restaurant owners and staff) to get their feedback and incorporate their input into the project.
 
-     + By using the Agile methodology, we can ensure that our project stays on track and meets the needs of our stakeholders. It also allows us to be more responsive to changing requirements or priorities, and to continuously improve the project based on feedback and testing.
+     + By using the Agile methodology, we can ensure that our project stays on track and meets the needs of the stakeholders. It also allows us to be more responsive to changing requirements or priorities, and to continuously improve the project based on feedback and testing.
+
 ## Design
-  + Our restaurant webpage project will be designed with a focus on user experience and visual appeal. We aim to create an inviting and seamless experience for visitors that showcases the restaurant's unique personality and offerings.
+  + The restaurant webpage project will be designed with a focus on user experience and visual appeal. We aim to create an inviting and seamless experience for visitors that showcases the   restaurant's unique personality and offerings. 
 
-     + To achieve this, we will use a clean and modern design aesthetic that reflects the restaurant's brand identity. We will also prioritize ease of navigation and accessibility, ensuring that visitors can easily find the information they need and make a reservation with minimal effort.
+     + To achieve this, we will use a clean and modern design aesthetic that reflects the restaurant's brand identity. Also prioritize ease of navigation and accessibility, ensuring that visitors can easily find the information they need and make a reservation with minimal effort.
 
-    + Our design process will involve creating wireframes and prototypes to test the usability and effectiveness of our design choices. We will also incorporate user feedback throughout the design process to ensure that the final product meets the needs and expectations of our target audience.
+    + The design process will involve creating wireframes and prototypes to test the usability and effectiveness of our design choices. Also incorporate user feedback throughout the design process to ensure that the final product meets the needs and expectations of our target audience.
 
-     + In addition to the visual design, we will also ensure that the website is optimized for performance and accessibility. This includes using responsive design techniques to ensure that the website is functional and user-friendly on a variety of devices, and adhering to web accessibility guidelines to ensure that the website can be used by people with disabilities.
+     + In addition to the visual design, Also ensure that the website is optimized for performance and accessibility. This includes using responsive design techniques to ensure that the website is functional and user-friendly on a variety of devices, and adhering to web accessibility guidelines to ensure that the website can be used by people with disabilities.
 
      + By prioritizing design and user experience, we aim to create a restaurant webpage that stands out from the competition and delivers an exceptional experience for our visitors.
 <b>
@@ -136,8 +137,7 @@ Overall, My project goals are aimed at providing an exceptional user experience 
   + The images used in the theme will be carefully curated to provide great content and presentation of the restaurant. They will serve as an enticement for the visitors
     and showcase the restaurant's unique personality and offerings. We will also ensure that the images are optimized for performance and accessibility, to ensure that they 
     load quickly and can be viewed by a wide range of users.By using a cohesive color scheme, font selection, and image curation, we aim to create a visually appealing 
-    and engaging restaurant webpage that captures the attention
-    of our visitors and reflects the restaurant's brand identity.
+    and engaging restaurant webpage that captures the attention of our visitors and reflects the restaurant's brand identity.
 
 ## Wireframes
 
@@ -474,34 +474,22 @@ I followed the below steps using the Code Institute walkthrough:
 
 + The following command in the Gitpod CLI will create the relevant files needed for Heroku to install your project dependencies pip3 freeze --local > requirements.txt. Please note this file should be added to a .gitignore file to prevent the file from being committed.
 
-1. Go to Heroku.com and log in; if you do not already have an account then you will need to create one.
-2. Click the New dropdown and select Create New App.
-3. Enter a name for your new project, all Heroku apps need to have a unique name, you will be prompted if you need to change it.
-4. Select the region you are working in.
+   1. Go to [Heroku.com](https://dashboard.heroku.com/) and log in; if you do not already have an account then you will need to create one.
+   2. Click the New dropdown and select Create New App.
+   3. Enter a name for your new project, all Heroku apps need to have a unique name, you will be prompted if you need to change it.
+   4. Select the region you are working in.
 
 ### Heroku Settings
 + You will need to set your Environment Variables - this is a key step to ensuring your application is deployed properly.
 
-1. In the Settings tab, click on Reveal Config Vars and set the following variables:
+  1. In the Settings tab, click on Reveal Config Vars and set the following variables:
 
-   - Add key: PORT & value 8000
-   - Add key: DATABASE_URL, this should have been created automatically by Heroku.
-   - Add key: CLOUDINARY_URL and the value as your cloudinary API Environment variable e.g.
-   - Add key: SECRET_KEY and the value as a complex string which will be used to provide cryptographic signing.
-2. Buildpacks are also required for proper deployment, simply click Add buildpack and search for the ones that you require.
-
-    - For this project, I needed to add Python.
-### Heroku Deployment
-In the Deploy tab:
-
-Connect your Heroku account to your Github Repository following these steps:
-Click on the Deploy tab and choose Github-Connect to Github.
-Enter the GitHub repository name and click on Search.
-Choose the correct repository for your application and click on Connect.
-You can then choose to deploy the project manually or automatically, automatic deployment will generate a new application every time you push a change to Github, whereas manual deployment requires you to push the Deploy Branch button whenever you want a change made.
-Once you have chosen your deployment method and have clicked Deploy Branch your application will be built and you should now see the View button, click this to open your application.
-
-<br>
+     - Add key: PORT & value 8000
+     - Add key: DATABASE_URL, this should have been created automatically by Heroku.
+     - Add key: CLOUDINARY_URL and the value as your cloudinary API Environment variable e.g.
+     - Add key: SECRET_KEY and the value as a complex string which will be used to provide cryptographic signing.
+  2. Buildpacks are also required for proper deployment, simply click Add buildpack and search for the ones that you require.
+     - For this project, I needed to add Python.
 
 ### Heroku Deployment
 
@@ -523,11 +511,11 @@ Once you have chosen your deployment method and have clicked Deploy Branch your 
 
 <br>
 
-- To use this code and make changes without affecting the original code, it is possible to 'fork' the code on the GitHub repository through the following steps:
+ To use this code and make changes without affecting the original code, it is possible to 'fork' the code on the GitHub repository through the following steps:
 
-1. Create or log into your GitHub account.
-2. Go to the GitHub repository.
-3. Click the 'Fork' button in the upper right-hand corner of the page. A copy of the repository will be available in your own repository.
+   1. Create or log into your GitHub account.
+   2. Go to the GitHub [repository](https://github.com/SuzanDewitz/TableFinder).
+   3. Click the 'Fork' button in the upper right-hand corner of the page. A copy of the repository will be available in your own repository.
 
 <br>
 
