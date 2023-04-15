@@ -474,7 +474,7 @@ enlarged for easy access, ensuring a seamless booking experience.
 <br>
 
  ## Inspiration 
- + My goal in creating the Restaurant Booking System was to build a high-quality, user-friendly platform that would streamline the process of making restaurant reservations. 
+ + My goal is creating the Restaurant Booking System was to build a high-quality, user-friendly platform that would streamline the process of making restaurant reservations. 
    I drew inspiration from several sources, including:
    - The Hello Django project
    - The I Think Therefore I Blog project
@@ -482,7 +482,7 @@ enlarged for easy access, ensuring a seamless booking experience.
    - The latest trends in web development, including responsive design and real-time updates
    - The open-source community and the many resources available for building scalable web applications
 
-+ Our system would meet the needs of both parties. By leveraging these sources of inspiration,I aimed to create a best-in-class platform that would make
++ The system would meet the needs of both parties. By leveraging these sources of inspiration,I aimed to create a best-in-class platform that would make
    restaurant bookings easier and more enjoyable for everyone involved.
 
 <br>
@@ -495,7 +495,7 @@ enlarged for easy access, ensuring a seamless booking experience.
    + By leveraging Bootstrap's powerful CSS and JavaScript components, I were able to create a cohesive design language across the entire website. 
      This helped to ensure that the user experience is consistent and intuitive, regardless of which page the user is on.
 
-   + Additionally, I customized certain aspects of the design to fit our specific branding and content needs. For example, 
+   + Additionally, I customized certain aspects of the design to fit the specific branding and content needs. For example, 
     I used Bootstrap's form components to create a reservation form that seamlessly integrates into the overall design of the website.
 
    + "I found that using Bootstrap allowed me to create a high-quality and professional-looking restaurant booking system in a fraction of the time it would have taken to
@@ -514,7 +514,12 @@ enlarged for easy access, ensuring a seamless booking experience.
   + The tutor support team at Code Institute for their support.
   + My Code Institute Mentor for feedback and suggestions.
   + The Code Institute Slack community.
-  + 
+  + I would like to extend my deepest appreciation to my husband, <span style="color:blue">Deitmar Dewitz</span>, for his unwavering support, encouragement, and guidance throughout the development of all my projects. His advanced knowledge and expertise were instrumental in helping me overcome numerous technical challenges. Without his invaluable feedback and patience, these projects would not have been possible.
+
+  + I would also like to express my sincere gratitude to <span style="color:blue">Praveen Kasam</span>, one of my husband's colleagues, for his time and effort in reviewing my projects. His feedback and suggestions were critical in shaping the final products. His expertise and critical evaluation helped me identify and fix issues that I would have otherwise missed.
+
+  + I am grateful that both my husband and Praveen Kasam have been integral parts of all my projects, from the first to the third. Their unwavering support and guidance have been the backbone of these projects, and I am thankful for their constant encouragement and assistance.
+
 <br>
 
 
