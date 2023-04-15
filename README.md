@@ -141,14 +141,16 @@ Overall, My project goals are aimed at providing an exceptional user experience 
 
 ## Wireframes
 
-  + Wireframes are an essential step in the design process for any website. They provide a visual representation of the website's layout, content, and functionality, allowing for 
-    early feedback and iterations before the actual design process begins.For our restaurant webpage project, we have created wireframes that outline the key elements and functionality
-    of the website. These wireframes include the homepage, menu page, reservation page, about us page, and contact page.
-  + The wireframes for the homepage show the layout and placement of key elements such as the logo, navigation menu, call-to-action buttons, and featured images. 
-    The wireframes for the menu page show the organization of the menu items, pricing, and images. The wireframes for the reservation page show the form fields and steps required to
-    make a reservation. The wireframes for the about us page show the layout of the content and images that provide information about the restaurant's history, team, and mission. 
-  + The wireframes for the contact page show the form fields and contact information required for visitors to get in touch with the restaurant.These wireframes have been created with a focus on 
-    user experience, ensuring that the website is easy to navigate, visually appealing, and provides the necessary information for visitors to make reservations and learn about the restaurant. Once the wireframes have been approved, we will move on to the design process, using these wireframes as a foundation for the final design.
+  + Wireframes are an essential tool that allows designers and stakeholders to visualize and refine the website's structure and functionality before the actual design process begins.
+    They provide a blueprint for the website's layout and content, enabling early feedback and iterations to ensure that the final product meets the project's objectives and user
+     needs For the restaurant webpage project. 
+  + The wireframes for the homepage show the layout and placement of key elements such as the logo, navigation menu, reservation page, about us page, and contact page, Gallery pages,
+     Mybookings page, Booking a table pages, Delete page, and featured images. 
+  + The wireframes for the menu page show the organization of the menu items, pricing, and images. The wireframes for the reservation page show the form fields and steps required to
+    make a reservation. The wireframes for the about the page show the layout of the content and images that provide information about the restaurant's history, team, and mission. 
+  + The wireframes for the contact page show contact information for visitors to get in touch with the restaurant.These wireframes have been created with a focus on user experience, 
+    ensuring that the website is easy to navigate, visually appealing, and provides the necessary information for visitors to make reservations and learn about the restaurant. 
+    Once the wireframes have been approved, I moved on to the design process,using these wireframes as a foundation for the final design.
    
 <br>
    
@@ -160,9 +162,9 @@ Overall, My project goals are aimed at providing an exceptional user experience 
    
 ## Database Schema
 ### Orders Table  
-+ The database design schema can be viewed below. It consists of an Orders Table that stores information about the orders placed by customers in the restaurant. 
-The Orders Table has a unique identifier for each order, the name of the customer who placed the order, the table number where the customer is seated, 
-the date and time the order was placed, a list of items ordered by the customer, the total cost of the order, and the payment status of the order.
++ The database design schema for our restaurant booking system can be viewed below. It consists of a Booking model that stores information about the reservations made by customers,
+  including the date and time of the reservation, the number of guests, and the table number. The Booking model has a foreign key that relates to the Django standard User model class,
+   which stores information about the registered users who made the reservation. This allows us to associate each reservation with the user who made it.
 
  ![image](./docs/img/features/databaseschema.png)
 
@@ -357,7 +359,6 @@ enlarged for easy access, ensuring a seamless booking experience.
   + [Gunicorn](https://docs.djangoproject.com/en/4.1/howto/deployment/wsgi/gunicorn/)"Green Unicorn" is a Python Web Server Gateway to translate HTTP Requests for Python to understand.
   + [psycopg2](https://pypi.org/project/psycopg2/2.9.3/) used to interact with PostgreSQL databases, which may be used in a Django restaurant booking system for executing SQL queries and  
      connecting to the database.
-  + [Bootstrap](https://getbootstrap.com/) Was used to create the front-end design.
   + [Cloudinary](https://cloudinary.com/) the image hosting service used to upload images and other media.
   + [Heroku](https://dashboard.heroku.com/apps) the hosting service used to host the website
   + [VSCode](https://code.visualstudio.com/)the IDE used to develop the website.
@@ -373,17 +374,51 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 + A separate document for validator can be viewed here: [validator](https://github.com/SuzanDewitz/TableFinder/tree/main/docs/img/validator)
 
+
+
 <br>
 
 ## Bugs
-  + 
+
+## HTML Validation
+ + The [W3C Markup Validation](https://validator.w3.org/) Service was used to validate the HTML of the website
+  
+  ![image](./docs/img/validator/html-index.png)
+
+  <br>
+
+## CSS Validation:
+
+The website CSS style has successfully passed the [W3C Jigsaw CSS Validation](https://jigsaw.w3.org/css-validator/).
+
+![image](./docs/img/validator/css-home.png)
+
+<br>
+
++ A separate document for Python Validation can be viewed here: [validator](https://github.com/SuzanDewitz/TableFinder/tree/main/docs/img/validator)
+  ### Python Validation (PEP8)
+   + All Python code was manually checked using [CI Python Linter](https://pep8ci.herokuapp.com/) The Linter reports had messages about exceeding 
+     the string length of 79 characters, which have been fixed and blank lines. Re-testing did not reveal any errors.
+
   ### Fixed Bugs
+   ![image](./docs/img/validator/bugssettings.py.png)
 
-![image](./docs/img/features/testing.png)
+   <br>
 
+   ![image](./docs/img/validator/settings.py.png)
+
+<br>
 
   ### Remaining Bugs
    + No known bugs remaining
+ 
+<br>
+
+![image](./docs/img/features/testing.png)
+
+<br>
+<br>
+
 
 ## Testing User Stories from User Experience (UX) Section
   1. Define the user stories: Begin by reviewing the user stories i have  created for the UX section of my project. Make sure that each user story is well-defined, and that it describes a specific user need or goal.
@@ -401,7 +436,6 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 ## Manual Testing
 
-<br>
 
 ### Device Testing
  + The Project was tested using a multi-device emulator with different display sizes in the Google Chrome Developer Dashboard. The following devices have been tested:
@@ -436,31 +470,85 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 ### Deploying with Heroku
 
-+ I followed the below steps using the Code Institute tutorial:
+I followed the below steps using the Code Institute walkthrough:
 
- + The following command in the Gitpod CLI will create the relevant files needed for Heroku to install your project dependencies pip3 freeze --local > requirements.txt. Please note this file should be added to a .gitignore file to prevent the file from being committed.
++ The following command in the Gitpod CLI will create the relevant files needed for Heroku to install your project dependencies pip3 freeze --local > requirements.txt. Please note this file should be added to a .gitignore file to prevent the file from being committed.
 
-  1. Go to [Heroku](https://dashboard.heroku.com/apps) and log in; if you do not already have an account then you will need to create one.
-  2. Click the New dropdown and select 'Create new app'.Enter a preferred app name. Select the relevant geographical region. Click to 'Create App'.
-  3. Navigate to 'Settings' and scroll down to the 'Config Vars' section. Click 'Reveal Config Vars' and enter 'PORT' for the key and '8000' for the value. Then click 'Add'. Add CLOUDINARY_URL, DATABASE_URL and SECRET_KEY. URL variable values ​​must be copied from your  [CLOUDINARY](https://cloudinary.com/) account and[ElephantSQL](https://www.elephantsql.com/) account. To create a SECRET KEY, use the online service or come up with your own.
-  4. Select the region you are working in.
+1. Go to Heroku.com and log in; if you do not already have an account then you will need to create one.
+2. Click the New dropdown and select Create New App.
+3. Enter a name for your new project, all Heroku apps need to have a unique name, you will be prompted if you need to change it.
+4. Select the region you are working in.
 
-  5. Click on the 'Deploy' tab. Next to 'Deployment method' select 'GitHub'. Connect the relevant GitHub repository. Under 'Manual deploy' choose the correct branch and click 'Deploy Branch'. Also you can select 'Automatic Deploys' so that the site updates when updates are pushed to GitHub.
+### Heroku Settings
++ You will need to set your Environment Variables - this is a key step to ensuring your application is deployed properly.
 
-  6. After successful deployment message in the page top right corner click the button labeled 'Open app' and you can access live app.
+1. In the Settings tab, click on Reveal Config Vars and set the following variables:
 
+   - Add key: PORT & value 8000
+   - Add key: DATABASE_URL, this should have been created automatically by Heroku.
+   - Add key: CLOUDINARY_URL and the value as your cloudinary API Environment variable e.g.
+   - Add key: SECRET_KEY and the value as a complex string which will be used to provide cryptographic signing.
+2. Buildpacks are also required for proper deployment, simply click Add buildpack and search for the ones that you require.
+
+    - For this project, I needed to add Python.
+### Heroku Deployment
+In the Deploy tab:
+
+Connect your Heroku account to your Github Repository following these steps:
+Click on the Deploy tab and choose Github-Connect to Github.
+Enter the GitHub repository name and click on Search.
+Choose the correct repository for your application and click on Connect.
+You can then choose to deploy the project manually or automatically, automatic deployment will generate a new application every time you push a change to Github, whereas manual deployment requires you to push the Deploy Branch button whenever you want a change made.
+Once you have chosen your deployment method and have clicked Deploy Branch your application will be built and you should now see the View button, click this to open your application.
+
+<br>
 
 ### Heroku Deployment
+
+<br>
+
 #### In the Deploy tab:
 
 1. Connect your Heroku account to your Github Repository following these steps:
    - Click on the Deploy tab and choose Github-Connect to Github.
    - Enter the GitHub repository name and click on Search.
    - Choose the correct repository for your application and click on Connect.
-2. You can then choose to deploy the project manually or automatically, automatic deployment will generate a new application every time you push a change to Github,
+2. I can then choose to deploy the project manually or automatically, automatic deployment will generate a new application every time you push a change to Github,
    whereas manual deployment requires you to push the Deploy Branch button whenever you want a change made.
    Once you have chosen your deployment method and have clicked Deploy Branch your application will be built and you should now see the View button, click this to open your application.
 
+<br>
+
+## Forking the GitHub Repository
+
+<br>
+
+- To use this code and make changes without affecting the original code, it is possible to 'fork' the code on the GitHub repository through the following steps:
+
+1. Create or log into your GitHub account.
+2. Go to the GitHub repository.
+3. Click the 'Fork' button in the upper right-hand corner of the page. A copy of the repository will be available in your own repository.
+
+<br>
+
+## Making a Local Clone
+
+1. Log in to GitHub and locate the GitHub Repository
+2. Under the repository name choose button "Code", click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open your development editor of choice and open a terminal window in a directory of your choice
+Type git clone, and then paste the URL you copied in Step 3.
+- > git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
++ Press Enter.
+
+Your local clone will be created.
+
+<br>
+
+For more information follow this link.[Link](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop)
+
+<br>
 <br>
 
 # Credits
@@ -481,8 +569,7 @@ enlarged for easy access, ensuring a seamless booking experience.
    - The user experience and design aesthetic of popular reservation systems like OpenTable and Resy
    - The latest trends in web development, including responsive design and real-time updates
    - The open-source community and the many resources available for building scalable web applications
-
-+ The system would meet the needs of both parties. By leveraging these sources of inspiration,I aimed to create a best-in-class platform that would make
+ + The system would meet the needs of both parties. By leveraging these sources of inspiration,I aimed to create a best-in-class platform that would make
    restaurant bookings easier and more enjoyable for everyone involved.
 
 <br>
@@ -514,9 +601,9 @@ enlarged for easy access, ensuring a seamless booking experience.
   + The tutor support team at Code Institute for their support.
   + My Code Institute Mentor for feedback and suggestions.
   + The Code Institute Slack community.
-  + I would like to extend my deepest appreciation to my husband, <span style="color:blue">Deitmar Dewitz</span>, for his unwavering support, encouragement, and guidance throughout the development of all my projects. His advanced knowledge and expertise were instrumental in helping me overcome numerous technical challenges. Without his invaluable feedback and patience, these projects would not have been possible.
+  + I would like to extend my deepest appreciation to my husband, <a href="#" style="color: blue; text-decoration: none;">Deitmar Dewitz</a>, for his unwavering support, encouragement, and guidance throughout the development of all my projects. His advanced knowledge and expertise were instrumental in helping me overcome numerous technical challenges. Without his invaluable feedback and patience, these projects would not have been possible.
 
-  + I would also like to express my sincere gratitude to <span style="color:blue">Praveen Kasam</span>, one of my husband's colleagues, for his time and effort in reviewing my projects. His feedback and suggestions were critical in shaping the final products. His expertise and critical evaluation helped me identify and fix issues that I would have otherwise missed.
+  + I would also like to express my sincere gratitude to <a href="#" style="color: blue; text-decoration: none;">Praveen Kasam</a>, one of my husband's colleagues, for his time and effort in reviewing my projects. His feedback and suggestions were critical in shaping the final products. His expertise and critical evaluation helped me identify and fix issues that I would have otherwise missed.
 
   + I am grateful that both my husband and Praveen Kasam have been integral parts of all my projects, from the first to the third. Their unwavering support and guidance have been the backbone of these projects, and I am thankful for their constant encouragement and assistance.
 

@@ -39,26 +39,78 @@ Through these testing efforts, we were able to identify and address any issues t
 
 + [Responsivetesttool](https://responsivetesttool.com/)
   
-
+<br>
    
  + [Google Devtools](https://developers.google.com/web/tools/chrome-devtools)
   
-
+<br>
 
 + [W3C Markup Validator](https://validator.w3.org/)
   + No errors or warnings that are relevant was shown<br>
+
+  ![image](./img/validator/html-index.png)
 
 <br>
 
 + [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
   + No errors or warnings that are relevant was shown<br>
-
+![image](./img/validator/css-home.png)
 
 <br>
 
 + [Python Validator](https://www.python.org/dev/peps/pep-0008/#code-lay-out)
-   + No errors or warnings that are relevant was shown<br>
 
+
+ <br>
+
+
++ Python Validation (PEP8)
+ + All Python code was manually checked using [CI Python Linter](https://pep8ci.herokuapp.com/). 
+  + The Linter reports had messages about exceeding the string length of 79 characters, which have been fixed. Re-testing did not reveal any errors.
+  
+
+ <br>
+
+ There are bugs in `settings.py` file:
+
+![image](./img/validator/bugssettings.py.png)
+
+
+
+<br>
+
+ + settings.py No errors or warnings that are relevant was shown
+![image](./img/validator/settings.py.png)
+
+<br>
+
+ + forms.py No errors or warnings that are relevant was shown
+![image](./img/validator/forms.py.png)
+
+
+<br>
+
+
+ + models.py No errors or warnings that are relevant was shown
+![image](./img/validator/models.py.png)
+
+
+<br>
+
+ No errors or warnings were found in `urls.py` for the `tablefinder` app:
+
+![image](./img/validator/tablefinder%20urls.py.png)
+
+
+<br>
+
+ + urls.py/homepage No errors or warnings that are relevant was shown
+![image](./img/validator/urls.pyhomepage.png)
+
+<br>
+
+ + views.py No errors or warnings that are relevant was shown
+![image](./img/validator/views.py.png)
 
 <br>
 
@@ -70,7 +122,7 @@ Through these testing efforts, we were able to identify and address any issues t
 <br>
 
 
-
+[Back to top](#top)
 
 
 
