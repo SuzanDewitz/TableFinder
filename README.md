@@ -30,7 +30,7 @@
         - [Responsive Design](https://github.com/SuzanDewitz/TableFinder#responsive-design)
    - [Technologies](https://github.com/SuzanDewitz/TableFinder#technologies)
        - [Languages](https://github.com/SuzanDewitz/TableFinder#languages)
-       - [Frameworks and Libraries](https://github.com/SuzanDewitz/TableFinder#frameworks-and-libraries)
+       - [Frameworks-Libraries-Programs](https://github.com/SuzanDewitz/TableFinder#frameworks-libraries-programs)
        - [Tools](https://github.com/SuzanDewitz/TableFinder#tools)
   - [Testing](https://github.com/SuzanDewitz/TableFinder#testing)
       - [Bugs](https://github.com/SuzanDewitz/TableFinder#bugs)
@@ -42,7 +42,6 @@
     - [Deploying with Heroku](https://github.com/SuzanDewitz/TableFinder#deploying-with-heroku)
 
 - [Credits](https://github.com/SuzanDewitz/TableFinder#credits)
-
     + [Code](https://github.com/SuzanDewitz/TableFinder#code)
     + [Inspiration](https://github.com/SuzanDewitz/TableFinder#inspiration)
     + [Content](https://github.com/SuzanDewitz/TableFinder#content)
@@ -318,7 +317,16 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 <br>
 
-## Technologies Used
+## Responsive design
+ + I implemented responsive design to ensure that our website is accessible and easy to use across all devices. This means that the website is designed to adapt to different 
+   screen sizes and resolutions, providing a seamless user experience for desktop and mobile users alike.
+
+ + To ensure that the website functions optimally on all devices, I tested it using a multi-device emulator with different screen sizes in the Google Chrome Developer Dashboard. This has allowed  
+   me to identify and address any issues that may arise on different devices.
+
+<br>
+
+## Technologies 
  ### Languages
    + HTML5
    + CSS3
@@ -328,18 +336,16 @@ enlarged for easy access, ensuring a seamless booking experience.
 <br>
 
 ## Frameworks, Libraries, Programs
-  + Python Built-in Modules
-  + [Os](https://docs.python.org/3/library/os.html)
-  + [Django](https://www.djangoproject.com/)
+  + [Django](https://www.djangoproject.com/)python framework used to create all the backend
 
 <br>
 
 
-## Programs & Tools
+## Tools
 
 <br>
 
-  + [Postgresql](https://www.postgresql.org/): Database
+  + [Postgresql](https://www.postgresql.org/): database used to store and manage data for the application. 
   + [Google Fonts](https://fonts.google.com/): Was used to to incorporate font styles.
   + [Gitpod](https://gitpod.io/workspaces)Gitpod was used as IDE to commit and push the project to GitHub..
   + [Bootstrap](https://getbootstrap.com/) Was used to create the front-end design.
@@ -349,7 +355,8 @@ enlarged for easy access, ensuring a seamless booking experience.
   + [Am I Responsive ](https://ui.dev/amiresponsive)to generate an image showcasing the website's responsiveness to different screen sizes
   + [pip3](https://pypi.org/project/pip/) is the package manager to install Python modules and libraries.
   + [Gunicorn](https://docs.djangoproject.com/en/4.1/howto/deployment/wsgi/gunicorn/)"Green Unicorn" is a Python Web Server Gateway to translate HTTP Requests for Python to understand.
-  + [psycopg2](https://pypi.org/project/psycopg2/2.9.3/) used to interact with PostgreSQL databases, which may be used in a Django restaurant booking system for executing SQL queries and connecting to the database.
+  + [psycopg2](https://pypi.org/project/psycopg2/2.9.3/) used to interact with PostgreSQL databases, which may be used in a Django restaurant booking system for executing SQL queries and  
+     connecting to the database.
   + [Bootstrap](https://getbootstrap.com/) Was used to create the front-end design.
   + [Cloudinary](https://cloudinary.com/) the image hosting service used to upload images and other media.
   + [Heroku](https://dashboard.heroku.com/apps) the hosting service used to host the website
@@ -366,7 +373,30 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 + A separate document for validator can be viewed here: [validator](https://github.com/SuzanDewitz/TableFinder/tree/main/docs/img/validator)
 
+<br>
 
+## Bugs
+  + 
+  ### Fixed Bugs
+
+![image](./docs/img/features/testing.png)
+
+
+  ### Remaining Bugs
+   + No known bugs remaining
+
+## Testing User Stories from User Experience (UX) Section
+  1. Define the user stories: Begin by reviewing the user stories i have  created for the UX section of my project. Make sure that each user story is well-defined, and that it describes a specific user need or goal.
+
+  2. Identify the acceptance criteria: For each user story, identify the acceptance criteria that must be met in order for the story to be considered complete. This might include specific user actions, system responses, or other criteria.
+
+  3. Create test cases: Based on the acceptance criteria, create a set of test cases that will allow me to verify that the user story has been implemented correctly. These test by include manual testing, automated testing, and a combination of both.
+
+  4. Perform the testing: Using the test cases i created, perform the testing to ensure that each user story has been implemented correctly. This might involve testing the user interface, interacting with the system, or reviewing the code to ensure that it meets the acceptance criteria.
+
+  5. Document the results: As i perform the testing, document the results in a clear and concise manner. Be sure to note any issues or bugs that you encounter, and provide detailed information on how to reproduce them.
+
+   
 <br>
 
 ## Manual Testing
@@ -480,7 +510,7 @@ enlarged for easy access, ensuring a seamless booking experience.
 
 <br>
 
-## Acknowledgements
+## Acknowledgments
   + The tutor support team at Code Institute for their support.
   + My Code Institute Mentor for feedback and suggestions.
   + The Code Institute Slack community.
