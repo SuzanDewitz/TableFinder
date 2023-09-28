@@ -589,7 +589,7 @@ For more information follow this link.[Link](https://docs.github.com/en/reposito
   + I would like to extend my gratitude to my Code Institute mentor, Daisy Mc Girr, for her feedback and helpful suggestions.
   + I would like to acknowledge the tutor support team at Code Institute for their valuable support throughout the course.
   + The Code Institute Slack community for their invaluable assistance and support throughout the course.
-  + I would like to extend my deepest appreciation to my husband, <a href="#" style="color: blue; text-decoration: none;">Deitmar Dewitz</a>, for his unwavering support, encouragement, and guidance throughout the development of all my projects. His advanced knowledge and expertise were instrumental in helping me overcome numerous technical challenges. Without his invaluable feedback and patience, these projects would not have been possible.
+  + I would like to extend my deepest appreciation to my husband, <a href="#" style="color: blue; text-decoration: none;">Dietmar Dewitz</a>, for his unwavering support, encouragement, and guidance throughout the development of all my projects. His advanced knowledge and expertise were instrumental in helping me overcome numerous technical challenges. Without his invaluable feedback and patience, these projects would not have been possible.
 
   + I would also like to express my sincere gratitude to <a href="#" style="color: blue; text-decoration: none;">Praveen Kasam</a>, one of my husband's colleagues, for his time and effort in reviewing my projects. His feedback and suggestions were critical in shaping the final products. His expertise and critical evaluation helped me identify and fix issues that I would have otherwise missed.
 
