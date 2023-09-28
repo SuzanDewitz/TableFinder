@@ -34,9 +34,12 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
-
-ALLOWED_HOSTS = ['tablefinder.herokuapp.com', 'localhost']
-
+# Add Render.com URL to allowed hosts
+RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
+if RENDER_EXTERNAL_HOSTNAME:
+    ALLOWED_HOSTS = [RENDER_EXTERNAL_HOSTNAME]
+else:
+    ALLOWED_HOSTS = ['tablefinder.herokuapp.com', '8000-suzandewitz-tablefinder-r9gi8lbvbep.ws-eu105.gitpod.io']
 
 # Application definition
 
