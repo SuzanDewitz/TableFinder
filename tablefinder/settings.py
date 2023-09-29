@@ -39,7 +39,7 @@ RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
 if RENDER_EXTERNAL_HOSTNAME:
     ALLOWED_HOSTS = [RENDER_EXTERNAL_HOSTNAME]
 else:
-    ALLOWED_HOSTS = ['suzandewitz-tablefinder.com', '*.gitpod.io']
+    ALLOWED_HOSTS = ['tablefinder.onrender.com', 'localhost']
 
 # Application definition
 
