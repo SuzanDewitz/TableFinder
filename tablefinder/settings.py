@@ -39,7 +39,7 @@ RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
 if RENDER_EXTERNAL_HOSTNAME:
     ALLOWED_HOSTS = [RENDER_EXTERNAL_HOSTNAME]
 else:
-    ALLOWED_HOSTS = ['tablefinder.herokuapp.com', '8000-suzandewitz-tablefinder-r9gi8lbvbep.ws-eu105.gitpod.io']
+    ALLOWED_HOSTS = ['tablefinder.herokuapp.com', 'localhost']
 
 # Application definition
 
